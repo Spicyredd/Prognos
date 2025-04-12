@@ -3,8 +3,8 @@ import { FiSend, FiUpload, FiHome, FiPlus } from "react-icons/fi";
 import { BsStars } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import ReactMarkdown from "react-markdown";
 import Swal from "sweetalert2";
+import ReactMarkdown from "react-markdown";
 import "sweetalert2/dist/sweetalert2.min.css";
 
 export default function ChatScreen() {
@@ -13,6 +13,7 @@ export default function ChatScreen() {
   const [isBotTyping, setIsBotTyping] = useState(false);
   const [typingText, setTypingText] = useState("");
   const [lastQuestionContext, setLastQuestionContext] = useState("");
+  const [caseStarted, setCaseStarted] = useState(false);
   const messagesEndRef = useRef(null);
   const navigate = useNavigate();
 
@@ -22,10 +23,7 @@ export default function ChatScreen() {
   }, []);
 
   const scrollToBottom = () => messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-
-  useEffect(() => {
-    scrollToBottom();
-  }, [messages, isBotTyping]);
+  useEffect(() => scrollToBottom(), [messages, isBotTyping]);
 
   const typeText = (text, callback) => {
     let i = 0;
@@ -41,6 +39,34 @@ export default function ChatScreen() {
     }, 10);
   };
 
+  const convertHtmlToMarkdown = (html) => {
+    const temp = document.createElement("div");
+    temp.innerHTML = html;
+    const format = [];
+    format.push("## 🧠 Preliminary Medical Report\n\n");
+    const disclaimer = temp.querySelector("p b")?.parentElement?.textContent;
+    if (disclaimer) format.push(`> ⚠️ **${disclaimer}**\n\n`);
+    const sections = temp.querySelectorAll("h2");
+    sections.forEach((section) => {
+      const heading = section.textContent;
+      format.push(`---\n\n### ${heading}\n\n`);
+      let next = section.nextElementSibling;
+      while (next && next.tagName !== "H2") {
+        if (next.tagName === "P") {
+          format.push(`${next.textContent}\n\n`);
+        } else if (next.tagName === "UL") {
+          const items = [...next.querySelectorAll("li")].map((li) => `- ${li.textContent}`).join("\n");
+          format.push(`${items}\n\n`);
+        } else if (next.tagName === "OL") {
+          const items = [...next.querySelectorAll("li")].map((li, i) => `${i + 1}. ${li.textContent}`).join("\n");
+          format.push(`${items}\n\n`);
+        }
+        next = next.nextElementSibling;
+      }
+    });
+    return format.join("\n");
+  };
+
   const handleSend = async (e) => {
     e.preventDefault();
     if (!input.trim()) return;
@@ -50,6 +76,14 @@ export default function ChatScreen() {
     setInput("");
     setIsBotTyping(true);
 
+    if (!caseStarted && userMessage.toLowerCase().includes("new case")) {
+      setCaseStarted(true);
+    } else if (!caseStarted) {
+      setMessages((prev) => [...prev, { role: "bot", text: "❌ Please start with \"new case\" to initiate." }]);
+      setIsBotTyping(false);
+      return;
+    }
+
     try {
       const res = await fetch("https://prognos-deploy.onrender.com/api/receive/", {
         method: "POST",
@@ -58,11 +92,18 @@ export default function ChatScreen() {
       });
 
       const data = await res.json();
-      const responseMessage = data.received || "⚠️ No message received from backend.";
+      const receivedText = data.received || "⚠️ No message received from backend.";
+      let cleanText = receivedText;
+
+      if (receivedText.includes("<!DOCTYPE html>")) {
+        localStorage.setItem("finalReportHTML", receivedText);
+        cleanText = convertHtmlToMarkdown(receivedText);
+      }
+
       setLastQuestionContext(data.question || "");
 
-      typeText(responseMessage, () => {
-        setMessages((prev) => [...prev, { role: "bot", text: responseMessage }]);
+      typeText(cleanText, () => {
+        setMessages((prev) => [...prev, { role: "bot", text: cleanText }]);
         setTypingText("");
         setIsBotTyping(false);
       });
@@ -76,6 +117,8 @@ export default function ChatScreen() {
   const handleNewChat = () => {
     setMessages([]);
     setLastQuestionContext("");
+    setCaseStarted(false);
+    localStorage.removeItem("finalReportHTML");
   };
 
   const handleFileUpload = (e) => {
@@ -136,27 +179,17 @@ export default function ChatScreen() {
 
       <div className="w-full max-w-3xl mx-auto flex-1 overflow-hidden mb-4 px-2">
         <div className="h-[55vh] overflow-y-auto space-y-4 px-1 custom-scrollbar">
-          {messages.length === 0 && (
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-center text-gray-400 italic">
-              👋 Welcome, doctor. Start by typing or uploading a file.
-            </motion.div>
-          )}
           {messages.map((msg, i) => (
             <motion.div key={i} initial={{ opacity: 0 }} animate={{ opacity: 1 }} className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}>
-              <div className="flex items-end gap-2 max-w-[80%]">
+              <div className="flex items-end gap-2 max-w-[70%] break-words">
                 <div className="w-8 h-8 text-sm rounded-full flex items-center justify-center font-bold bg-white/10">{msg.role === "user" ? "🧑" : "🤖"}</div>
-                <div className={`rounded-xl px-4 py-2 text-sm whitespace-pre-line ${msg.role === "user" ? "bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-br-none" : "bg-white/10 text-gray-200 rounded-bl-none"}`}>
-                  {msg.text && <ReactMarkdown>{msg.text}</ReactMarkdown>}
-                  {msg.file?.type === "image" && <img src={msg.file.url} alt="uploaded" className="mt-2 rounded-lg max-h-48 object-contain" />}
-                  {msg.file?.type === "file" && (
-                    <a href={msg.file.url} target="_blank" rel="noopener noreferrer" className="text-purple-300 underline text-xs block mt-2">
-                      {msg.file.icon} {msg.file.name}
-                    </a>
-                  )}
+                <div className={`rounded-xl px-4 py-2 text-sm whitespace-pre-wrap break-words ${msg.role === "user" ? "bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-br-none" : "bg-white/10 text-gray-200 rounded-bl-none"}`}>
+                  <ReactMarkdown>{msg.text}</ReactMarkdown>
                 </div>
               </div>
             </motion.div>
           ))}
+
           {isBotTyping && (
             <div className="flex justify-start">
               <div className="flex items-end gap-2 max-w-[80%]">
@@ -167,11 +200,12 @@ export default function ChatScreen() {
               </div>
             </div>
           )}
+
           <div ref={messagesEndRef}></div>
         </div>
       </div>
 
-      <div className="w-full max-w-3xl mx-auto mb-6 px-2">
+      <div className="w-full max-w-3xl mx-auto  mb-6 px-2">
         <div className="flex items-center gap-2 mb-2">
           <label className="cursor-pointer flex items-center gap-2 text-purple-400 hover:text-purple-300 text-sm">
             <FiUpload />

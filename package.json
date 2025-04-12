@@ -16,6 +16,7 @@
     "framer-motion": "^12.6.5",
     "html2pdf.js": "^0.10.3",
     "jspdf": "^3.0.1",
+    "marked": "^15.0.8",
     "qrcode": "^1.5.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

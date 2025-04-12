@@ -12,25 +12,18 @@ export default function ChatScreen() {
   const [input, setInput] = useState("");
   const [isBotTyping, setIsBotTyping] = useState(false);
   const [typingText, setTypingText] = useState("");
-  const navigate = useNavigate();
+  const [lastQuestionContext, setLastQuestionContext] = useState("");
+  const [caseStarted, setCaseStarted] = useState(false);
   const messagesEndRef = useRef(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const user = localStorage.getItem("user");
-    if (!user) {
-      navigate("/login");
-    }
+    if (!user) navigate("/login");
   }, []);
 
-  const tags = ["Analyse BTC", "DeFi Yields", "Price History", "Trading Strategy", "Candle patterns"];
-
-  const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-
-  useEffect(() => {
-    scrollToBottom();
-  }, [messages, isBotTyping]);
+  const scrollToBottom = () => messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  useEffect(() => scrollToBottom(), [messages, isBotTyping]);
 
   const typeText = (text, callback) => {
     let i = 0;
@@ -55,17 +48,27 @@ export default function ChatScreen() {
     setInput("");
     setIsBotTyping(true);
 
+    if (!caseStarted && userMessage.toLowerCase().includes("new case")) {
+      setCaseStarted(true);
+    } else if (!caseStarted) {
+      setMessages((prev) => [...prev, { role: "bot", text: "❌ Please start with \"new case\" to initiate." }]);
+      setIsBotTyping(false);
+      return;
+    }
+
     try {
-      const res = await fetch("http://192.168.100.127:5000/api/receive", {
+      const res = await fetch("http://192.168.100.127:8000/api/receive/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: userMessage }),
+        body: JSON.stringify({ message: userMessage, question: lastQuestionContext })
       });
 
       const data = await res.json();
+      const responseMessage = data.received || "⚠️ No message received from backend.";
+      setLastQuestionContext(data.question || "");
 
-      typeText(data.received, () => {
-        setMessages((prev) => [...prev, { role: "bot", text: data.received }]);
+      typeText(responseMessage, () => {
+        setMessages((prev) => [...prev, { role: "bot", text: responseMessage }]);
         setTypingText("");
         setIsBotTyping(false);
       });
@@ -76,12 +79,15 @@ export default function ChatScreen() {
     }
   };
 
-  const handleNewChat = () => setMessages([]);
+  const handleNewChat = () => {
+    setMessages([]);
+    setLastQuestionContext("");
+    setCaseStarted(false);
+  };
 
   const handleFileUpload = (e) => {
     const file = e.target.files[0];
     if (!file) return;
-
     const url = URL.createObjectURL(file);
     const ext = file.name.split(".").pop().toLowerCase();
     const type = file.type.startsWith("image/") ? "image" : "file";
@@ -89,96 +95,66 @@ export default function ChatScreen() {
       pdf: "📄", doc: "📝", docx: "📝", ppt: "📊", xls: "📊", xlsx: "📊", zip: "🗜️", txt: "📄", default: "📎"
     };
     const icon = iconMap[ext] || iconMap.default;
-
-    setMessages((prev) => [
-      ...prev,
-      { role: "user", text: type === "file" ? `${icon} ${file.name}` : "", file: { url, name: file.name, type, icon } },
-    ]);
+    setMessages((prev) => [...prev, { role: "user", text: type === "file" ? `${icon} ${file.name}` : "", file: { url, name: file.name, type, icon } }]);
   };
+
+  const tags = ["Asthma", "HIV/AIDS", "diabetes", "stroke", "heart diseases"];
 
   return (
     <div className="min-h-screen flex flex-col bg-[#0a0a0a] text-white relative overflow-hidden">
       <div className="absolute top-0 left-0 w-40 h-40 bg-purple-600 blur-3xl opacity-10 rounded-full animate-float-slow" />
       <div className="absolute bottom-10 right-10 w-32 h-32 bg-pink-500 blur-3xl opacity-10 rounded-full animate-float-slow" />
 
-      {/* 🔼 Top nav with SweetAlert logout */}
-      <motion.div
-        initial={{ opacity: 0, y: -10 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="flex justify-center gap-10 text-sm text-gray-400 mb-4 border-b border-white/10 pb-2 w-full max-w-3xl mx-auto z-10 pt-6"
-      >
+      <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="flex justify-center gap-10 text-sm text-gray-400 mb-4 border-b border-white/10 pb-2 w-full max-w-3xl mx-auto z-10 pt-6">
         <button className="border-b-2 border-white text-white pb-1">Chat</button>
         <button onClick={() => navigate("/report")} className="hover:text-white transition">Report</button>
-        <button
-          onClick={() => {
-            Swal.fire({
-              title: "Log out?",
-              text: "Are you sure you want to log out?",
-              icon: "warning",
-              showCancelButton: true,
-              confirmButtonColor: "#ef4444",
-              cancelButtonColor: "#6b7280",
-              confirmButtonText: "Yes, log out",
-              background: "#1f1f1f",
-              color: "#fff",
-            }).then((result) => {
-              if (result.isConfirmed) {
-                localStorage.removeItem("user");
-                navigate("/login");
-              }
-            });
-          }}
-          className="text-red-400 hover:text-red-300 transition"
-        >
-          Logout
-        </button>
+        <button onClick={() => {
+          Swal.fire({
+            title: "Log out?",
+            text: "Are you sure you want to log out?",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#ef4444",
+            cancelButtonColor: "#6b7280",
+            confirmButtonText: "Yes, log out",
+            background: "#1f1f1f",
+            color: "#fff",
+          }).then((result) => {
+            if (result.isConfirmed) {
+              localStorage.removeItem("user");
+              navigate("/login");
+            }
+          });
+        }} className="text-red-400 hover:text-red-300 transition">Logout</button>
       </motion.div>
 
-      {/* Header */}
-      <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        className="flex flex-col items-center mb-4"
-      >
-        <div className="bg-[#151515] p-5 rounded-full shadow-2xl border border-white/5">
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-center mb-6">
+        <div className="bg-[#151515] p-5 rounded-full shadow-2xl border border-white/5 w-fit mx-auto mb-3">
           <BsStars size={36} className="text-purple-500" />
         </div>
-        <h1 className="text-xl mt-3 font-semibold text-gray-100">Chat with AI Assistant</h1>
+        <h1 className="text-xl font-semibold text-gray-100">Chat with AI Assistant</h1>
       </motion.div>
 
-      {/* Tags */}
-      <motion.div
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="flex flex-wrap justify-center gap-2 max-w-3xl mb-4 mx-auto"
-      >
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex flex-wrap justify-center gap-2 max-w-3xl mb-4 mx-auto">
         {tags.map((tag, i) => (
-          <div key={i} className="px-3 py-1 bg-white/10 text-xs rounded-full text-gray-300">
-            {tag}
-          </div>
+          <div key={i} className="px-3 py-1 bg-white/10 text-xs rounded-full text-gray-300">{tag}</div>
         ))}
       </motion.div>
 
-      {/* Chat display */}
       <div className="w-full max-w-3xl mx-auto flex-1 overflow-hidden mb-4 px-2">
         <div className="h-[55vh] overflow-y-auto space-y-4 px-1 custom-scrollbar">
           {messages.length === 0 && (
-            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center text-gray-400 italic">
+            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-center text-gray-400 italic">
               👋 Welcome, doctor. Start by typing or uploading a file.
             </motion.div>
           )}
-
           {messages.map((msg, i) => (
-            <motion.div key={i} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}>
+            <motion.div key={i} initial={{ opacity: 0 }} animate={{ opacity: 1 }} className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}>
               <div className="flex items-end gap-2 max-w-[80%]">
-                <div className="w-8 h-8 text-sm rounded-full flex items-center justify-center font-bold bg-white/10">
-                  {msg.role === "user" ? "🧑" : "🤖"}
-                </div>
+                <div className="w-8 h-8 text-sm rounded-full flex items-center justify-center font-bold bg-white/10">{msg.role === "user" ? "🧑" : "🤖"}</div>
                 <div className={`rounded-xl px-4 py-2 text-sm whitespace-pre-line ${msg.role === "user" ? "bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-br-none" : "bg-white/10 text-gray-200 rounded-bl-none"}`}>
                   {msg.text && <ReactMarkdown>{msg.text}</ReactMarkdown>}
-                  {msg.file?.type === "image" && (
-                    <img src={msg.file.url} alt="uploaded" className="mt-2 rounded-lg max-h-48 object-contain" />
-                  )}
+                  {msg.file?.type === "image" && <img src={msg.file.url} alt="uploaded" className="mt-2 rounded-lg max-h-48 object-contain" />}
                   {msg.file?.type === "file" && (
                     <a href={msg.file.url} target="_blank" rel="noopener noreferrer" className="text-purple-300 underline text-xs block mt-2">
                       {msg.file.icon} {msg.file.name}
@@ -188,7 +164,6 @@ export default function ChatScreen() {
               </div>
             </motion.div>
           ))}
-
           {isBotTyping && (
             <div className="flex justify-start">
               <div className="flex items-end gap-2 max-w-[80%]">
@@ -199,12 +174,10 @@ export default function ChatScreen() {
               </div>
             </div>
           )}
-
           <div ref={messagesEndRef}></div>
         </div>
       </div>
 
-      {/* Input Section */}
       <div className="w-full max-w-3xl mx-auto mb-6 px-2">
         <div className="flex items-center gap-2 mb-2">
           <label className="cursor-pointer flex items-center gap-2 text-purple-400 hover:text-purple-300 text-sm">
@@ -214,14 +187,10 @@ export default function ChatScreen() {
           <button onClick={handleNewChat} className="ml-auto text-sm text-white px-3 py-1 rounded-lg border border-white/20 hover:bg-white/5 flex items-center gap-2">
             <FiPlus /> New Chat
           </button>
-          <button
-            onClick={() => navigate("/")}
-            className="text-purple-400 hover:text-purple-300 transition flex items-center gap-1 text-sm border border-white/10 px-3 py-1 rounded-lg"
-          >
+          <button onClick={() => navigate("/")} className="text-purple-400 hover:text-purple-300 transition flex items-center gap-1 text-sm border border-white/10 px-3 py-1 rounded-lg">
             <FiHome size={16} /> Home
           </button>
         </div>
-
         <form onSubmit={handleSend} className="flex items-center bg-white/5 border border-white/10 rounded-full px-4 py-2">
           <input
             type="text"
