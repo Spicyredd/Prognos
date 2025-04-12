@@ -14,3 +14,146 @@
 2025-04-12 14:16:53,974 INFO:Stored response for key_findings_vitals: swelling and even vomiting
 2025-04-12 14:17:14,591 INFO:Stored response for relevant_history: Allergic to Lactulose and Dust
 2025-04-12 14:17:21,988 INFO:Successfully generated and displayed the report.
+2025-04-12 14:45:01,327 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 14:45:01,328 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 14:45:01,330 INFO: * Restarting with stat
+2025-04-12 14:45:04,395 WARNING: * Debugger is active!
+2025-04-12 14:45:04,411 INFO: * Debugger PIN: 547-287-803
+2025-04-12 14:46:36,649 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 14:46:36,653 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 14:46:36,657 INFO: * Restarting with stat
+2025-04-12 14:46:38,868 WARNING: * Debugger is active!
+2025-04-12 14:46:38,871 INFO: * Debugger PIN: 547-287-803
+2025-04-12 14:49:02,754 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 14:49:02,754 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 14:49:02,756 INFO: * Restarting with stat
+2025-04-12 14:49:04,660 WARNING: * Debugger is active!
+2025-04-12 14:49:04,664 INFO: * Debugger PIN: 547-287-803
+2025-04-12 14:49:49,631 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 14:49:49,631 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 14:49:49,633 INFO: * Restarting with stat
+2025-04-12 14:50:03,257 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 14:50:03,257 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 14:50:03,259 INFO: * Restarting with stat
+2025-04-12 14:50:05,125 WARNING: * Debugger is active!
+2025-04-12 14:50:05,128 INFO: * Debugger PIN: 547-287-803
+2025-04-12 14:50:37,184 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 14:50:37,184 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 14:50:37,185 INFO: * Restarting with stat
+2025-04-12 14:50:39,389 WARNING: * Debugger is active!
+2025-04-12 14:50:39,394 INFO: * Debugger PIN: 547-287-803
+2025-04-12 14:51:57,469 INFO: * Detected change in '/home/shank/Documents/HimalAI/Prognos/model_src/app.py', reloading
+2025-04-12 14:51:57,854 INFO: * Restarting with stat
+2025-04-12 14:52:32,669 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 14:52:32,670 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 14:52:32,672 INFO: * Restarting with stat
+2025-04-12 14:52:34,740 WARNING: * Debugger is active!
+2025-04-12 14:52:34,755 INFO: * Debugger PIN: 547-287-803
+2025-04-12 14:53:03,177 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 14:53:03,177 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 14:53:03,179 INFO: * Restarting with stat
+2025-04-12 14:53:05,116 WARNING: * Debugger is active!
+2025-04-12 14:53:05,119 INFO: * Debugger PIN: 547-287-803
+2025-04-12 14:54:28,419 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 14:54:28,420 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 14:56:00,085 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 14:56:00,085 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 14:56:00,087 INFO: * Restarting with stat
+2025-04-12 14:56:02,097 WARNING: * Debugger is active!
+2025-04-12 14:56:02,102 INFO: * Debugger PIN: 547-287-803
+2025-04-12 14:57:18,603 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 14:57:18,604 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 14:57:18,605 INFO: * Restarting with stat
+2025-04-12 14:57:20,355 WARNING: * Debugger is active!
+2025-04-12 14:57:20,359 INFO: * Debugger PIN: 547-287-803
+2025-04-12 14:59:59,219 INFO: * Detected change in '/home/shank/Documents/HimalAI/Prognos/model_src/app.py', reloading
+2025-04-12 14:59:59,814 INFO: * Restarting with stat
+2025-04-12 15:00:02,420 WARNING: * Debugger is active!
+2025-04-12 15:00:02,424 INFO: * Debugger PIN: 547-287-803
+2025-04-12 15:00:03,489 INFO: * Detected change in '/home/shank/Documents/HimalAI/Prognos/model_src/app.py', reloading
+2025-04-12 15:00:03,913 INFO: * Restarting with stat
+2025-04-12 15:00:10,857 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 15:00:10,858 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 15:00:10,859 INFO: * Restarting with stat
+2025-04-12 15:00:12,859 WARNING: * Debugger is active!
+2025-04-12 15:00:12,863 INFO: * Debugger PIN: 547-287-803
+2025-04-12 15:02:10,194 INFO: * Detected change in '/home/shank/Documents/HimalAI/Prognos/model_src/app.py', reloading
+2025-04-12 15:02:10,560 INFO: * Restarting with stat
+2025-04-12 15:02:17,097 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2025-04-12 15:02:17,097 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 15:02:17,099 INFO: * Restarting with stat
+2025-04-12 15:02:18,976 WARNING: * Debugger is active!
+2025-04-12 15:02:18,980 INFO: * Debugger PIN: 547-287-803
+2025-04-12 15:04:20,647 INFO: * Detected change in '/home/shank/Documents/HimalAI/Prognos/model_src/app.py', reloading
+2025-04-12 15:04:21,027 INFO: * Restarting with stat
+2025-04-12 15:04:23,492 WARNING: * Debugger is active!
+2025-04-12 15:04:23,497 INFO: * Debugger PIN: 547-287-803
+2025-04-12 15:04:24,575 INFO: * Detected change in '/home/shank/Documents/HimalAI/Prognos/model_src/app.py', reloading
+2025-04-12 15:04:25,036 INFO: * Restarting with stat
+2025-04-12 15:04:27,496 WARNING: * Debugger is active!
+2025-04-12 15:04:27,502 INFO: * Debugger PIN: 547-287-803
+2025-04-12 15:05:03,976 INFO: * Detected change in '/home/shank/Documents/HimalAI/Prognos/model_src/app.py', reloading
+2025-04-12 15:05:04,374 INFO: * Restarting with stat
+2025-04-12 15:05:07,081 WARNING: * Debugger is active!
+2025-04-12 15:05:07,084 INFO: * Debugger PIN: 547-287-803
+2025-04-12 15:05:11,315 INFO: * Detected change in '/home/shank/Documents/HimalAI/Prognos/model_src/app.py', reloading
+2025-04-12 15:05:11,819 INFO: * Restarting with stat
+2025-04-12 15:05:18,128 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 15:05:18,129 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 15:05:18,130 INFO: * Restarting with stat
+2025-04-12 15:05:20,746 WARNING: * Debugger is active!
+2025-04-12 15:05:20,751 INFO: * Debugger PIN: 547-287-803
+2025-04-12 15:06:30,676 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 15:06:30,677 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 15:06:30,678 INFO: * Restarting with stat
+2025-04-12 15:06:32,492 WARNING: * Debugger is active!
+2025-04-12 15:06:32,496 INFO: * Debugger PIN: 264-896-912
+2025-04-12 15:07:37,003 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 15:07:37,003 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 15:07:37,005 INFO: * Restarting with stat
+2025-04-12 15:07:40,932 WARNING: * Debugger is active!
+2025-04-12 15:07:40,938 INFO: * Debugger PIN: 264-896-912
+2025-04-12 15:11:19,172 INFO: * Detected change in '/home/shank/Documents/HimalAI/Prognos/model_src/app.py', reloading
+2025-04-12 15:11:19,543 INFO: * Restarting with stat
+2025-04-12 15:11:22,381 WARNING: * Debugger is active!
+2025-04-12 15:11:22,388 INFO: * Debugger PIN: 264-896-912
+2025-04-12 15:11:43,834 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 15:11:43,835 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 15:11:43,836 INFO: * Restarting with stat
+2025-04-12 15:11:46,292 WARNING: * Debugger is active!
+2025-04-12 15:11:46,298 INFO: * Debugger PIN: 264-896-912
+2025-04-12 15:13:38,688 INFO: * Detected change in '/home/shank/Documents/HimalAI/Prognos/model_src/app.py', reloading
+2025-04-12 15:13:39,268 INFO: * Restarting with stat
+2025-04-12 15:13:42,724 WARNING: * Debugger is active!
+2025-04-12 15:13:42,729 INFO: * Debugger PIN: 264-896-912
+2025-04-12 15:14:17,611 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2025-04-12 15:14:17,611 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 15:14:24,092 INFO:127.0.0.1 - - [12/Apr/2025 15:14:24] "GET / HTTP/1.1" 200 -
+2025-04-12 15:14:27,359 INFO:127.0.0.1 - - [12/Apr/2025 15:14:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-12 15:14:39,433 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2025-04-12 15:14:39,433 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 15:15:07,193 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2025-04-12 15:15:07,193 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 15:18:19,885 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2025-04-12 15:18:19,885 INFO:[33mPress CTRL+C to quit[0m
