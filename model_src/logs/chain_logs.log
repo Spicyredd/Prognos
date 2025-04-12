@@ -4,3 +4,13 @@
 2025-04-12 12:02:31,145 INFO:Stored response for relevant_history: he has been sick, gastrosities
 2025-04-12 12:02:38,866 INFO:Successfully generated and displayed the report.
 2025-04-12 12:03:42,997 INFO:New case initiated by trigger keyword.
+2025-04-12 12:12:03,104 INFO:New case initiated by trigger keyword.
+2025-04-12 12:12:14,802 INFO:Stored response for complaint_duration: he is saying that he is ready to vomit everytime
+2025-04-12 12:12:29,302 INFO:Stored response for key_findings_vitals: he is too lean nowadays, doesn't eat, only sleeps
+2025-04-12 12:13:09,605 INFO:Stored response for relevant_history: gastrics, headaches, exhaustion, weakness
+2025-04-12 12:13:18,245 INFO:Successfully generated and displayed the report.
+2025-04-12 14:16:19,165 INFO:New case initiated by trigger keyword.
+2025-04-12 14:16:39,737 INFO:Stored response for complaint_duration: Road TRaffic Accident and hand is swelling
+2025-04-12 14:16:53,974 INFO:Stored response for key_findings_vitals: swelling and even vomiting
+2025-04-12 14:17:14,591 INFO:Stored response for relevant_history: Allergic to Lactulose and Dust
+2025-04-12 14:17:21,988 INFO:Successfully generated and displayed the report.
