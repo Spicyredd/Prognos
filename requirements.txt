@@ -2,4 +2,3 @@ langchain
 langchain_community
 langchain_google_genai
 python-dotenv
-model_src/__pycache__

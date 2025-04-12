@@ -1,3 +1,4 @@
 utils/.env
 .env
 myenv
+model_src/__pycache__
