@@ -1,9 +1,9 @@
 # src/your_project_name/chains.py
 from langchain_core.output_parsers import StrOutputParser
-from.llm_provider import get_gemini_llm # Assumes llm_provider.py in the same package
-from.prompts import create_basic_prompt_template # Assumes prompts.py with the function
+from llm_provider import get_gemini_llm # Assumes llm_provider.py in the same package
+from prompts import create_basic_prompt_template # Assumes prompts.py with the function
 
-def create_simple_chain(system_template, human_template, model_name="gemini-1.5-pro", temperature=0.7):
+def create_simple_chain(system_template, human_template, model_name="gemini-2.0-flash", temperature=0):
     """
     Creates a simple LangChain chain using LCEL: Prompt -> LLM -> String Output.
 
@@ -41,10 +41,10 @@ def create_simple_chain(system_template, human_template, model_name="gemini-1.5-
 #         print("Creating a simple summarization chain...")
 #         system_tmpl = "You are an expert summarizer. Summarize the following text concisely."
 #         human_tmpl = "Text to summarize: {input_text}"
-#
+
 #         summarization_chain = create_simple_chain(system_tmpl, human_tmpl)
 #         print("Chain created successfully.")
-#
+
 #         # Example text
 #         long_text = (
 #             "LangChain is a framework for developing applications powered by language models. "
@@ -52,15 +52,15 @@ def create_simple_chain(system_template, human_template, model_name="gemini-1.5-
 #             "Key components include LLMs, Prompt Templates, Chains, Agents, Memory, and Indexes. "
 #             "Google's Gemini is a family of powerful multimodal models integrated with LangChain."
 #         )
-#
+
 #         print("\nInvoking chain for summarization...")
 #         summary = summarization_chain.invoke({"input_text": long_text})
-#
+
 #         print("\nGenerated Summary:")
 #         print("---")
 #         print(summary)
 #         print("---")
-#
+
 #     except ValueError as ve:
 #          print(f"Configuration Error during chain creation/invocation: {ve}")
 #     except Exception as e:

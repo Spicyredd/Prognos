@@ -22,23 +22,22 @@ def create_basic_prompt_template(system_message_template, human_message_template
     ])
     return prompt
 
-# Example usage (optional, for demonstration within this file)
 # if __name__ == "__main__":
 #     system_tmpl = "You are a helpful assistant that translates {input_language} to {output_language}."
 #     human_tmpl = "{text}"
 #     translator_prompt = create_basic_prompt_template(system_tmpl, human_tmpl)
-#
+
 #     # Format the prompt with specific values
 #     formatted_prompt_value = translator_prompt.invoke({
 #         "input_language": "English",
 #         "output_language": "Spanish",
 #         "text": "Good morning!"
 #     })
-#
+
 #     print("Formatted Prompt Value:")
 #     print(formatted_prompt_value)
 #     # Output typically shows the structure, e.g., ChatPromptValue(messages=[...])
-#
+
 #     print("\nMessages list:")
 #     # To get the actual list of messages:
 #     messages_list = formatted_prompt_value.to_messages()
