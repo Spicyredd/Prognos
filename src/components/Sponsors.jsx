@@ -1,41 +1,76 @@
+import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
+import Image1 from "../assets/1.png";
+import Image2 from "../assets/2.png";
+import Image3 from "../assets/3.png";
+import Image4 from "../assets/4.png";
 
 const sponsors = [
-  { name: "OpenMed AI", logo: "https://dummyimage.com/120x40/8a2be2/ffffff&text=OpenMed" },
-  { name: "HealthHack Labs", logo: "https://dummyimage.com/120x40/8a2be2/ffffff&text=HealthHack" },
-  { name: "DocuFlow", logo: "https://dummyimage.com/120x40/8a2be2/ffffff&text=DocuFlow" },
-  { name: "MedChainX", logo: "https://dummyimage.com/120x40/8a2be2/ffffff&text=MedChainX" },
+  { name: "OpenMed AI", logo: Image1 },
+  { name: "HealthHack Labs", logo: Image2 },
+  { name: "DocuFlow", logo: Image3 },
+  { name: "MedChainX", logo: Image4 },
 ];
 
 export default function Sponsors() {
+  const containerRef = useRef(null);
+  const scrollRef = useRef(null);
+  const [isHovered, setIsHovered] = useState(false);
+
+  useEffect(() => {
+    const scrollEl = scrollRef.current;
+    if (!scrollEl) return;
+
+    let scrollAmount = 0;
+    let animationFrame;
+
+    const animate = () => {
+      if (!isHovered) {
+        scrollAmount += 0.5;
+        scrollEl.style.transform = `translateX(-${scrollAmount}px)`;
+
+        if (scrollAmount >= scrollEl.scrollWidth / 2) {
+          scrollAmount = 0;
+        }
+      }
+      animationFrame = requestAnimationFrame(animate);
+    };
+
+    animate();
+    return () => cancelAnimationFrame(animationFrame);
+  }, [isHovered]);
+
   return (
-    <section className="py-20 px-6 max-w-5xl mx-auto text-center">
+    <section className="py-16 px-4 text-center text-white overflow-hidden relative">
       <motion.h2
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="text-4xl md:text-5xl font-bold text-white mb-12"
+        className="text-3xl md:text-4xl font-bold mb-10"
       >
         Trusted by Innovators
       </motion.h2>
 
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 items-center justify-center">
-        {sponsors.map((sponsor, idx) => (
-          <motion.div
-            key={idx}
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: idx * 0.2 }}
-            className="flex justify-center"
-          >
+      <div
+        className="relative max-w-4xl mx-auto overflow-hidden"
+        ref={containerRef}
+      >
+        <div
+          className="flex gap-16 whitespace-nowrap py-4 px-2 will-change-transform"
+          ref={scrollRef}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+          style={{ display: 'inline-flex' }}
+        >
+          {[...sponsors, ...sponsors].map((sponsor, idx) => (
             <img
+              key={idx}
               src={sponsor.logo}
               alt={sponsor.name}
-              className="w-full max-w-[120px] object-contain opacity-80 hover:opacity-100 transition"
+              className="w-28 h-28 object-contain"
             />
-          </motion.div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -3,11 +3,13 @@ import { FiSend, FiUpload, FiHome, FiPlus } from "react-icons/fi";
 import { BsStars } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+import ReactMarkdown from "react-markdown";
 
 export default function ChatScreen() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [isBotTyping, setIsBotTyping] = useState(false);
+  const [typingText, setTypingText] = useState("");
   const navigate = useNavigate();
   const messagesEndRef = useRef(null);
 
@@ -21,17 +23,49 @@ export default function ChatScreen() {
     scrollToBottom();
   }, [messages, isBotTyping]);
 
-  const handleSend = (e) => {
+  const typeText = (text, callback) => {
+    let i = 0;
+    setTypingText("");
+
+    const interval = setInterval(() => {
+      if (i < text.length) {
+        setTypingText((prev) => prev + text[i]);
+        i++;
+      } else {
+        clearInterval(interval);
+        callback();
+      }
+    }, 10);
+  };
+
+  const handleSend = async (e) => {
     e.preventDefault();
     if (!input.trim()) return;
-    setMessages((prev) => [...prev, { role: "user", text: input }]);
-    setInput("");
 
+    const userMessage = input;
+    setMessages((prev) => [...prev, { role: "user", text: userMessage }]);
+    setInput("");
     setIsBotTyping(true);
-    setTimeout(() => {
-      setMessages((prev) => [...prev, { role: "bot", text: "🤖 AI is processing your request. Please wait..." }]);
+
+    try {
+      const res = await fetch("http://192.168.100.127:5000/api/receive", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: userMessage }),
+      });
+
+      const data = await res.json();
+
+      typeText(data.received, () => {
+        setMessages((prev) => [...prev, { role: "bot", text: data.received }]);
+        setTypingText("");
+        setIsBotTyping(false);
+      });
+    } catch (err) {
+      console.error("API error:", err);
+      setMessages((prev) => [...prev, { role: "bot", text: "❌ Failed to get response." }]);
       setIsBotTyping(false);
-    }, 1000);
+    }
   };
 
   const handleNewChat = () => setMessages([]);
@@ -56,11 +90,9 @@ export default function ChatScreen() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#0a0a0a] text-white relative overflow-hidden">
-      {/* Glow */}
       <div className="absolute top-0 left-0 w-40 h-40 bg-purple-600 blur-3xl opacity-10 rounded-full animate-float-slow" />
       <div className="absolute bottom-10 right-10 w-32 h-32 bg-pink-500 blur-3xl opacity-10 rounded-full animate-float-slow" />
 
-      {/* Tabs */}
       <motion.div
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
@@ -70,7 +102,6 @@ export default function ChatScreen() {
         <button onClick={() => navigate("/report")} className="hover:text-white transition">Report</button>
       </motion.div>
 
-      {/* Header */}
       <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -82,7 +113,6 @@ export default function ChatScreen() {
         <h1 className="text-xl mt-3 font-semibold text-gray-100">Chat with AI Assistant</h1>
       </motion.div>
 
-      {/* Tags */}
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
@@ -95,7 +125,6 @@ export default function ChatScreen() {
         ))}
       </motion.div>
 
-      {/* Scrollable Chat Area */}
       <div className="w-full max-w-3xl mx-auto flex-1 overflow-hidden mb-4 px-2">
         <div className="h-[55vh] overflow-y-auto space-y-4 px-1 custom-scrollbar">
           {messages.length === 0 && (
@@ -110,8 +139,8 @@ export default function ChatScreen() {
                 <div className="w-8 h-8 text-sm rounded-full flex items-center justify-center font-bold bg-white/10">
                   {msg.role === "user" ? "🧑" : "🤖"}
                 </div>
-                <div className={`rounded-xl px-4 py-2 text-sm ${msg.role === "user" ? "bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-br-none" : "bg-white/10 text-gray-200 rounded-bl-none"}`}>
-                  {msg.text && <p>{msg.text}</p>}
+                <div className={`rounded-xl px-4 py-2 text-sm whitespace-pre-line ${msg.role === "user" ? "bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-br-none" : "bg-white/10 text-gray-200 rounded-bl-none"}`}>
+                  {msg.text && <ReactMarkdown>{msg.text}</ReactMarkdown>}
                   {msg.file?.type === "image" && (
                     <img src={msg.file.url} alt="uploaded" className="mt-2 rounded-lg max-h-48 object-contain" />
                   )}
@@ -126,8 +155,15 @@ export default function ChatScreen() {
           ))}
 
           {isBotTyping && (
-            <div className="flex items-center text-sm text-gray-400 italic animate-pulse">
-              🤖 AI is typing...
+            <div className="flex justify-start">
+              <div className="flex items-end gap-2 max-w-[80%]">
+                <div className="w-8 h-8 text-sm rounded-full flex items-center justify-center font-bold bg-white/10">
+                  🤖
+                </div>
+                <div className="rounded-xl px-4 py-2 text-sm bg-white/10 text-gray-200 rounded-bl-none whitespace-pre-line">
+                  <ReactMarkdown>{typingText}</ReactMarkdown>
+                </div>
+              </div>
             </div>
           )}
 
@@ -135,7 +171,6 @@ export default function ChatScreen() {
         </div>
       </div>
 
-      {/* Upload + Input */}
       <div className="w-full max-w-3xl mx-auto mb-6 px-2">
         <div className="flex items-center gap-2 mb-2">
           <label className="cursor-pointer flex items-center gap-2 text-purple-400 hover:text-purple-300 text-sm">
