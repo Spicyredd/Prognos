@@ -2459,3 +2459,15 @@ AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse`
 2025-04-12 17:22:09,777 INFO:All questions answered. Generating case report.
 2025-04-12 17:22:12,135 INFO:Stored response for relevant_history:sick
 2025-04-12 17:22:12,135 INFO:Attempting to generate case report.
+2025-04-12 17:38:03,355 INFO:Stored response for complaint_duration:sick 
+2025-04-12 17:38:03,363 INFO:All questions answered. Generating case report.
+2025-04-12 17:38:05,818 INFO:Stored response for key_findings_vitals:sick
+2025-04-12 17:38:05,818 INFO:All questions answered. Generating case report.
+2025-04-12 17:38:08,679 INFO:Stored response for relevant_history:sick
+2025-04-12 17:38:08,679 INFO:Attempting to generate case report.
+2025-04-12 17:45:20,441 INFO:Stored response for complaint_duration:sick
+2025-04-12 17:45:20,442 INFO:All questions answered. Generating case report.
+2025-04-12 17:45:22,287 INFO:Stored response for key_findings_vitals:sick
+2025-04-12 17:45:22,287 INFO:All questions answered. Generating case report.
+2025-04-12 17:45:23,720 INFO:Stored response for relevant_history:sikc
+2025-04-12 17:45:23,720 INFO:Attempting to generate case report.
