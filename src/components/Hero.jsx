@@ -1,6 +1,18 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
+import { isAuthenticated } from "../utils/auth"; // ✅ import auth check
 
 export default function Hero() {
+  const navigate = useNavigate(); // ✅ add useNavigate hook
+
+  const handleStart = () => {
+    if (isAuthenticated()) {
+      navigate("/chat");
+    } else {
+      navigate("/login");
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 pt-32 pb-24 overflow-hidden">
       {/* Floating glow shapes */}
@@ -30,7 +42,7 @@ export default function Hero() {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         className="mt-10 px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white text-lg font-semibold rounded-xl shadow-xl transition z-10"
-        onClick={() => window.location.href = '/chat'}
+        onClick={handleStart} // ✅ changed this line
       >
         🚀 Start New Case
       </motion.button>
