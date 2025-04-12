@@ -18,4 +18,7 @@ Constraints:
 - Do NOT invent information.
 - Emphasize preliminary nature and physician’s final responsibility.
 - Prioritize safety, mentioning allergies/interactions.
+
+Format:
+The output should be in proper html format
 """

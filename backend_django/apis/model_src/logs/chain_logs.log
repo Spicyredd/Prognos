@@ -2280,3 +2280,182 @@ AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse`
 2025-04-12 14:32:52,012 INFO:/home/spicyred/Projects/Prognos/backend_django/backend_django/settings.py changed, reloading.
 2025-04-12 14:32:56,775 INFO:/home/spicyred/Projects/Prognos/backend_django/backend_django/settings.py changed, reloading.
 2025-04-12 14:34:11,888 INFO:/home/spicyred/Projects/Prognos/backend_django/backend_django/settings.py changed, reloading.
+2025-04-12 15:50:31,329 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2025-04-12 15:50:58,694 INFO:Stored response for complaint_duration:headache 
+2025-04-12 15:50:58,694 INFO:All questions answered. Generating case report.
+2025-04-12 15:51:04,738 INFO:Stored response for key_findings_vitals:headache
+2025-04-12 15:51:04,738 INFO:All questions answered. Generating case report.
+2025-04-12 15:51:10,780 INFO:Stored response for relevant_history:headache
+2025-04-12 15:51:10,780 INFO:Attempting to generate case report.
+2025-04-12 15:56:23,187 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2025-04-12 15:56:33,354 INFO:Stored response for complaint_duration:headache
+2025-04-12 15:56:33,355 INFO:All questions answered. Generating case report.
+2025-04-12 15:56:38,268 INFO:Stored response for key_findings_vitals:headache
+2025-04-12 15:56:38,269 INFO:All questions answered. Generating case report.
+2025-04-12 15:56:44,310 INFO:Stored response for relevant_history:headache
+2025-04-12 15:56:44,311 INFO:Attempting to generate case report.
+2025-04-12 16:54:56,986 WARNING:Method Not Allowed: /api/receive/
+2025-04-12 16:54:59,714 WARNING:Method Not Allowed: /api/receive/
+2025-04-12 16:55:36,749 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2025-04-12 16:55:48,986 INFO:Stored response for complaint_duration:headache
+2025-04-12 16:55:48,986 INFO:All questions answered. Generating case report.
+2025-04-12 16:55:52,366 INFO:Stored response for key_findings_vitals:headache
+2025-04-12 16:55:52,367 INFO:All questions answered. Generating case report.
+2025-04-12 16:55:56,053 INFO:Stored response for relevant_history:headache
+2025-04-12 16:55:56,053 INFO:Attempting to generate case report.
+2025-04-12 16:57:38,744 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2025-04-12 16:57:47,416 INFO:Stored response for complaint_duration:headace
+2025-04-12 16:57:47,417 INFO:All questions answered. Generating case report.
+2025-04-12 16:57:50,181 INFO:Stored response for key_findings_vitals:headache
+2025-04-12 16:57:50,182 INFO:All questions answered. Generating case report.
+2025-04-12 16:57:54,789 INFO:Stored response for relevant_history:headache
+2025-04-12 16:57:54,789 INFO:Attempting to generate case report.
+2025-04-12 16:58:58,103 INFO:Stored response for complaint_duration:headache
+2025-04-12 16:58:58,103 INFO:All questions answered. Generating case report.
+2025-04-12 16:59:00,462 INFO:Stored response for key_findings_vitals:headache
+2025-04-12 16:59:00,462 INFO:All questions answered. Generating case report.
+2025-04-12 16:59:02,453 INFO:Stored response for relevant_history:headche
+2025-04-12 16:59:02,454 INFO:Attempting to generate case report.
+2025-04-12 17:05:45,239 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2025-04-12 17:09:04,851 WARNING:Not Found: /api/recive/
+2025-04-12 17:09:13,653 WARNING:Not Found: /api/recive/
+2025-04-12 17:09:48,268 INFO:Stored response for complaint_duration:new
+2025-04-12 17:09:48,268 INFO:All questions answered. Generating case report.
+2025-04-12 17:09:50,107 INFO:Stored response for key_findings_vitals:new
+2025-04-12 17:09:50,107 INFO:All questions answered. Generating case report.
+2025-04-12 17:09:52,155 INFO:Stored response for relevant_history:new
+2025-04-12 17:09:52,155 INFO:Attempting to generate case report.
+2025-04-12 17:10:15,744 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2025-04-12 17:15:52,006 INFO:Stored response for complaint_duration:sixk
+2025-04-12 17:15:52,006 INFO:All questions answered. Generating case report.
+2025-04-12 17:15:54,161 INFO:Stored response for key_findings_vitals:sick
+2025-04-12 17:15:54,162 INFO:All questions answered. Generating case report.
+2025-04-12 17:15:56,209 INFO:Stored response for relevant_history:sick
+2025-04-12 17:15:56,209 INFO:Attempting to generate case report.
+2025-04-12 17:16:56,247 INFO:/home/spicyred/Projects/Prognos/backend_django/apis/model_src/chains/prompts/report_prompt_template.py changed, reloading.
+2025-04-12 17:22:06,605 INFO:Stored response for complaint_duration:sick
+2025-04-12 17:22:06,606 INFO:All questions answered. Generating case report.
+2025-04-12 17:22:09,776 INFO:Stored response for key_findings_vitals:sick
+2025-04-12 17:22:09,777 INFO:All questions answered. Generating case report.
+2025-04-12 17:22:12,135 INFO:Stored response for relevant_history:sick
+2025-04-12 17:22:12,135 INFO:Attempting to generate case report.
