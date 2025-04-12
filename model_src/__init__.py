@@ -1,7 +1,7 @@
 # src/your_project_name/__init__.py
-from.config import get_google_api_key
+from.extra_files.config import get_google_api_key
 from.llm_provider import get_gemini_llm
-from.prompts import create_basic_prompt_template
+from.extra_files.prompts import create_basic_prompt_template
 from.chains import create_simple_chain
 
 __all__ = [
