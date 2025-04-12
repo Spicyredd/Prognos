@@ -1,0 +1,87 @@
+2025-04-12 12:01:51,375 INFO:New case initiated by trigger keyword.
+2025-04-12 12:02:04,476 INFO:Stored response for complaint_duration: so he has pain in his stomahe
+2025-04-12 12:02:15,989 INFO:Stored response for key_findings_vitals: no apetite, mood off
+2025-04-12 12:02:31,145 INFO:Stored response for relevant_history: he has been sick, gastrosities
+2025-04-12 12:02:38,866 INFO:Successfully generated and displayed the report.
+2025-04-12 12:03:42,997 INFO:New case initiated by trigger keyword.
+2025-04-12 14:39:50,658 INFO:New case initiated by trigger keyword.
+2025-04-12 14:39:57,810 INFO:Stored response for complaint_duration: Headache for 5 hours
+2025-04-12 14:40:07,436 INFO:Stored response for key_findings_vitals: Temperature over 100
+2025-04-12 14:40:19,724 INFO:Stored response for relevant_history: Patient has a clean history
+2025-04-12 14:40:19,724 ERROR:Error creating case report chain: GOOGLE_API_KEY not found.
+2025-04-12 14:40:19,725 ERROR:Failed to generate report: GOOGLE_API_KEY not found.
+2025-04-12 14:41:36,396 INFO:New case initiated by trigger keyword.
+2025-04-12 14:41:46,333 INFO:Stored response for complaint_duration: Thoraic pain
+2025-04-12 14:41:53,485 INFO:Stored response for key_findings_vitals: Fever of 100C
+2025-04-12 14:42:04,600 INFO:Stored response for relevant_history: Clean history
+2025-04-12 14:42:04,601 ERROR:Error creating case report chain: GOOGLE_API_KEY not found.
+2025-04-12 14:42:04,601 ERROR:Failed to generate report: GOOGLE_API_KEY not found.
+2025-04-12 14:46:17,812 INFO:New case initiated by trigger keyword.
+2025-04-12 14:46:19,029 INFO:Stored response for complaint_duration: asdfasd
+2025-04-12 14:46:19,346 INFO:Stored response for key_findings_vitals: fasdf
+2025-04-12 14:46:19,829 INFO:Stored response for relevant_history: asdfasd
+2025-04-12 14:46:25,646 INFO:Successfully generated and displayed the report.
+2025-04-12 15:15:56,051 INFO:New case initiated by trigger keyword.
+2025-04-12 15:15:57,902 INFO:Stored response for complaint_duration: adsf
+2025-04-12 15:15:58,272 INFO:Stored response for key_findings_vitals: asdfasd
+2025-04-12 15:15:58,588 INFO:Stored response for relevant_history: fasdf
+2025-04-12 15:16:03,626 INFO:Successfully generated and displayed the report.
+2025-04-12 15:16:49,688 INFO:New case initiated by trigger keyword.
+2025-04-12 15:16:51,205 INFO:Stored response for complaint_duration: fasdfa
+2025-04-12 15:16:51,450 INFO:Stored response for key_findings_vitals: sdfdsa
+2025-04-12 15:16:51,710 INFO:Stored response for relevant_history: fads
+2025-04-12 15:16:56,776 INFO:Successfully generated and displayed the report.
+2025-04-12 15:56:56,075 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 15:56:56,076 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 15:56:56,077 INFO: * Restarting with stat
+2025-04-12 15:56:58,879 WARNING: * Debugger is active!
+2025-04-12 15:56:58,880 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:05:41,827 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:05:41,828 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:05:41,829 INFO: * Restarting with stat
+2025-04-12 16:05:44,621 WARNING: * Debugger is active!
+2025-04-12 16:05:44,621 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:12:16,544 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 16:12:17,156 INFO: * Restarting with stat
+2025-04-12 16:12:20,180 WARNING: * Debugger is active!
+2025-04-12 16:12:20,180 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:13:32,301 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:13:32,301 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:13:32,302 INFO: * Restarting with stat
+2025-04-12 16:13:35,153 WARNING: * Debugger is active!
+2025-04-12 16:13:35,153 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:14:33,443 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 16:14:34,249 INFO: * Restarting with stat
+2025-04-12 16:14:37,290 WARNING: * Debugger is active!
+2025-04-12 16:14:37,290 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:14:38,305 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 16:14:38,791 INFO: * Restarting with stat
+2025-04-12 16:14:46,908 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:14:46,909 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:14:46,910 INFO: * Restarting with stat
+2025-04-12 16:14:49,568 WARNING: * Debugger is active!
+2025-04-12 16:14:49,568 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:15:41,830 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 16:15:42,329 INFO: * Restarting with stat
+2025-04-12 16:15:43,086 WARNING: * Debugger is active!
+2025-04-12 16:15:43,087 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:15:49,749 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:15:49,749 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:15:49,751 INFO: * Restarting with stat
+2025-04-12 16:15:50,482 WARNING: * Debugger is active!
+2025-04-12 16:15:50,482 INFO: * Debugger PIN: 110-210-033

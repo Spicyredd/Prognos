@@ -1,0 +1,2282 @@
+2025-04-12 12:01:51,375 INFO:New case initiated by trigger keyword.
+2025-04-12 12:02:04,476 INFO:Stored response for complaint_duration: so he has pain in his stomahe
+2025-04-12 12:02:15,989 INFO:Stored response for key_findings_vitals: no apetite, mood off
+2025-04-12 12:02:31,145 INFO:Stored response for relevant_history: he has been sick, gastrosities
+2025-04-12 12:02:38,866 INFO:Successfully generated and displayed the report.
+2025-04-12 12:03:42,997 INFO:New case initiated by trigger keyword.
+2025-04-12 14:39:50,658 INFO:New case initiated by trigger keyword.
+2025-04-12 14:39:57,810 INFO:Stored response for complaint_duration: Headache for 5 hours
+2025-04-12 14:40:07,436 INFO:Stored response for key_findings_vitals: Temperature over 100
+2025-04-12 14:40:19,724 INFO:Stored response for relevant_history: Patient has a clean history
+2025-04-12 14:40:19,724 ERROR:Error creating case report chain: GOOGLE_API_KEY not found.
+2025-04-12 14:40:19,725 ERROR:Failed to generate report: GOOGLE_API_KEY not found.
+2025-04-12 14:41:36,396 INFO:New case initiated by trigger keyword.
+2025-04-12 14:41:46,333 INFO:Stored response for complaint_duration: Thoraic pain
+2025-04-12 14:41:53,485 INFO:Stored response for key_findings_vitals: Fever of 100C
+2025-04-12 14:42:04,600 INFO:Stored response for relevant_history: Clean history
+2025-04-12 14:42:04,601 ERROR:Error creating case report chain: GOOGLE_API_KEY not found.
+2025-04-12 14:42:04,601 ERROR:Failed to generate report: GOOGLE_API_KEY not found.
+2025-04-12 14:46:17,812 INFO:New case initiated by trigger keyword.
+2025-04-12 14:46:19,029 INFO:Stored response for complaint_duration: asdfasd
+2025-04-12 14:46:19,346 INFO:Stored response for key_findings_vitals: fasdf
+2025-04-12 14:46:19,829 INFO:Stored response for relevant_history: asdfasd
+2025-04-12 14:46:25,646 INFO:Successfully generated and displayed the report.
+2025-04-12 15:15:56,051 INFO:New case initiated by trigger keyword.
+2025-04-12 15:15:57,902 INFO:Stored response for complaint_duration: adsf
+2025-04-12 15:15:58,272 INFO:Stored response for key_findings_vitals: asdfasd
+2025-04-12 15:15:58,588 INFO:Stored response for relevant_history: fasdf
+2025-04-12 15:16:03,626 INFO:Successfully generated and displayed the report.
+2025-04-12 15:16:49,688 INFO:New case initiated by trigger keyword.
+2025-04-12 15:16:51,205 INFO:Stored response for complaint_duration: fasdfa
+2025-04-12 15:16:51,450 INFO:Stored response for key_findings_vitals: sdfdsa
+2025-04-12 15:16:51,710 INFO:Stored response for relevant_history: fads
+2025-04-12 15:16:56,776 INFO:Successfully generated and displayed the report.
+2025-04-12 15:56:56,075 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 15:56:56,076 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 15:56:56,077 INFO: * Restarting with stat
+2025-04-12 15:56:58,879 WARNING: * Debugger is active!
+2025-04-12 15:56:58,880 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:05:41,827 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:05:41,828 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:05:41,829 INFO: * Restarting with stat
+2025-04-12 16:05:44,621 WARNING: * Debugger is active!
+2025-04-12 16:05:44,621 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:12:16,544 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 16:12:17,156 INFO: * Restarting with stat
+2025-04-12 16:12:20,180 WARNING: * Debugger is active!
+2025-04-12 16:12:20,180 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:13:32,301 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:13:32,301 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:13:32,302 INFO: * Restarting with stat
+2025-04-12 16:13:35,153 WARNING: * Debugger is active!
+2025-04-12 16:13:35,153 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:14:33,443 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 16:14:34,249 INFO: * Restarting with stat
+2025-04-12 16:14:37,290 WARNING: * Debugger is active!
+2025-04-12 16:14:37,290 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:14:38,305 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 16:14:38,791 INFO: * Restarting with stat
+2025-04-12 16:14:46,908 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:14:46,909 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:14:46,910 INFO: * Restarting with stat
+2025-04-12 16:14:49,568 WARNING: * Debugger is active!
+2025-04-12 16:14:49,568 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:15:41,830 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 16:15:42,329 INFO: * Restarting with stat
+2025-04-12 16:15:43,086 WARNING: * Debugger is active!
+2025-04-12 16:15:43,087 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:15:49,749 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:15:49,749 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:15:49,751 INFO: * Restarting with stat
+2025-04-12 16:15:50,482 WARNING: * Debugger is active!
+2025-04-12 16:15:50,482 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:22:11,982 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:22:11,983 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:22:11,984 INFO: * Restarting with stat
+2025-04-12 16:22:12,726 WARNING: * Debugger is active!
+2025-04-12 16:22:12,727 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:26:20,276 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:26:20,276 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:26:20,277 INFO: * Restarting with stat
+2025-04-12 16:26:20,832 WARNING: * Debugger is active!
+2025-04-12 16:26:20,833 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:27:25,051 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/model_src/chains/case_report_chain.py', reloading
+2025-04-12 16:27:25,216 INFO: * Restarting with stat
+2025-04-12 16:27:25,918 WARNING: * Debugger is active!
+2025-04-12 16:27:25,919 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:29:17,315 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 16:29:17,479 INFO: * Restarting with stat
+2025-04-12 16:29:18,230 WARNING: * Debugger is active!
+2025-04-12 16:29:18,231 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:29:19,247 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 16:29:19,409 INFO: * Restarting with stat
+2025-04-12 16:29:24,729 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:29:24,729 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:29:24,730 INFO: * Restarting with stat
+2025-04-12 16:29:25,459 WARNING: * Debugger is active!
+2025-04-12 16:29:25,459 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:30:45,750 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 16:30:46,011 INFO: * Restarting with stat
+2025-04-12 16:31:08,439 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:31:08,440 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:31:08,441 INFO: * Restarting with stat
+2025-04-12 16:31:09,199 WARNING: * Debugger is active!
+2025-04-12 16:31:09,200 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:36:02,739 INFO:New case initiated by trigger keyword.
+2025-04-12 16:36:02,740 INFO:127.0.0.1 - - [12/Apr/2025 16:36:02] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 16:36:22,385 INFO:Stored response for complaint_duration:Patient has chest pain for 3 days
+2025-04-12 16:36:22,386 INFO:127.0.0.1 - - [12/Apr/2025 16:36:22] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 16:37:21,866 INFO:Stored response for key_findings_vitals:BP 140/90, Temp 37.5C, Alert and oriented
+2025-04-12 16:37:21,866 INFO:127.0.0.1 - - [12/Apr/2025 16:37:21] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 16:37:28,224 INFO:Stored response for relevant_history:History of hypertension, no known allergies, takes Lisinopril
+2025-04-12 16:37:28,233 INFO:127.0.0.1 - - [12/Apr/2025 16:37:28] "[35m[1mPOST /api/receive HTTP/1.1[0m" 500 -
+2025-04-12 16:40:40,101 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 16:40:40,268 INFO: * Restarting with stat
+2025-04-12 16:40:41,001 WARNING: * Debugger is active!
+2025-04-12 16:40:41,001 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:41:57,614 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:41:57,615 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:41:57,616 INFO: * Restarting with stat
+2025-04-12 16:41:58,376 WARNING: * Debugger is active!
+2025-04-12 16:41:58,377 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:42:53,552 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 16:42:53,711 INFO: * Restarting with stat
+2025-04-12 16:42:54,461 WARNING: * Debugger is active!
+2025-04-12 16:42:54,461 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:42:59,964 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:42:59,965 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:42:59,966 INFO: * Restarting with stat
+2025-04-12 16:43:00,691 WARNING: * Debugger is active!
+2025-04-12 16:43:00,692 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:43:43,237 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:43:43,238 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:43:43,239 INFO: * Restarting with stat
+2025-04-12 16:43:44,000 WARNING: * Debugger is active!
+2025-04-12 16:43:44,001 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:44:22,904 INFO:Stored response for complaint_duration: Patient has chest pain for 3 days
+2025-04-12 16:44:22,904 INFO:Asking next question (index 1).
+2025-04-12 16:44:22,905 INFO:127.0.0.1 - - [12/Apr/2025 16:44:22] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 16:44:27,349 INFO:Stored response for relevant_history: History of hypertension, no known allergies, takes Lisinopril
+2025-04-12 16:44:27,349 INFO:Last question (index 2) answered. Proceeding to report generation.
+2025-04-12 16:44:27,349 INFO:Attempting to generate case report.
+2025-04-12 16:44:27,349 WARNING:Missing required data for report generation: ['key_findings_vitals']. Asking question 1.
+2025-04-12 16:44:27,350 INFO:127.0.0.1 - - [12/Apr/2025 16:44:27] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 16:53:50,131 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 16:53:50,280 INFO: * Restarting with stat
+2025-04-12 16:53:51,055 WARNING: * Debugger is active!
+2025-04-12 16:53:51,056 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:53:54,988 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 16:53:54,989 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 16:53:54,990 INFO: * Restarting with stat
+2025-04-12 16:53:55,690 WARNING: * Debugger is active!
+2025-04-12 16:53:55,691 INFO: * Debugger PIN: 110-210-033
+2025-04-12 16:54:57,272 INFO:New case initiated by trigger keyword.
+2025-04-12 16:54:57,273 INFO:127.0.0.1 - - [12/Apr/2025 16:54:57] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 16:55:15,759 INFO:Stored response for complaint_duration: Patient has chest pain for 3 days
+2025-04-12 16:55:15,759 INFO:Asking next question (index 1).
+2025-04-12 16:55:15,760 INFO:127.0.0.1 - - [12/Apr/2025 16:55:15] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 16:55:23,599 INFO:Stored response for key_findings_vitals: BP 140/90, Temp 37.5C, Alert and oriented
+2025-04-12 16:55:23,599 INFO:Asking next question (index 2).
+2025-04-12 16:55:23,600 INFO:127.0.0.1 - - [12/Apr/2025 16:55:23] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 16:55:32,447 INFO:Stored response for relevant_history: History of hypertension, no known allergies, takes Lisinopril
+2025-04-12 16:55:32,447 INFO:Last question (index 2) answered. Proceeding to report generation.
+2025-04-12 16:55:32,447 INFO:Attempting to generate case report.
+2025-04-12 16:55:34,776 ERROR:ImportError initializing case report chain components: No module named 'configs'
+Traceback (most recent call last):
+  File "/home/spicyred/Projects/Prognos/backend/api/routes.py", line 93, in receive
+    from api.model_src.chains.case_report_chain import create_case_report_chain
+  File "/home/spicyred/Projects/Prognos/backend/api/model_src/chains/case_report_chain.py", line 7, in <module>
+    from configs.config import get_google_api_key
+ModuleNotFoundError: No module named 'configs'
+2025-04-12 16:55:34,779 INFO:127.0.0.1 - - [12/Apr/2025 16:55:34] "[35m[1mPOST /api/receive HTTP/1.1[0m" 500 -
+2025-04-12 17:02:04,441 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 17:02:04,442 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 17:02:04,443 INFO: * Restarting with stat
+2025-04-12 17:02:05,226 WARNING: * Debugger is active!
+2025-04-12 17:02:05,226 INFO: * Debugger PIN: 110-210-033
+2025-04-12 17:02:53,761 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 17:02:53,761 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 17:02:53,763 INFO: * Restarting with stat
+2025-04-12 17:02:54,485 WARNING: * Debugger is active!
+2025-04-12 17:02:54,486 INFO: * Debugger PIN: 110-210-033
+2025-04-12 17:04:56,055 INFO:New case initiated by trigger keyword.
+2025-04-12 17:04:56,056 INFO:127.0.0.1 - - [12/Apr/2025 17:04:56] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:05:02,434 INFO:Stored response for complaint_duration: Patient has chest pain for 3 days
+2025-04-12 17:05:02,435 INFO:Asking next question (index 1).
+2025-04-12 17:05:02,435 INFO:127.0.0.1 - - [12/Apr/2025 17:05:02] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:05:06,872 INFO:Stored response for key_findings_vitals: BP 140/90, Temp 37.5C, Alert and oriented
+2025-04-12 17:05:06,872 INFO:Asking next question (index 2).
+2025-04-12 17:05:06,872 INFO:127.0.0.1 - - [12/Apr/2025 17:05:06] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:05:11,283 INFO:Stored response for relevant_history: History of hypertension, no known allergies, takes Lisinopril
+2025-04-12 17:05:11,283 INFO:Last question (index 2) answered. Proceeding to report generation.
+2025-04-12 17:05:11,283 INFO:Attempting to generate case report.
+2025-04-12 17:05:13,585 ERROR:ImportError initializing case report chain components: No module named 'configs'
+Traceback (most recent call last):
+  File "/home/spicyred/Projects/Prognos/backend/api/routes.py", line 93, in receive
+    from api.model_src.chains.case_report_chain import create_case_report_chain
+  File "/home/spicyred/Projects/Prognos/backend/api/model_src/chains/case_report_chain.py", line 7, in <module>
+    from configs.config import get_google_api_key
+ModuleNotFoundError: No module named 'configs'
+2025-04-12 17:05:13,587 INFO:127.0.0.1 - - [12/Apr/2025 17:05:13] "[35m[1mPOST /api/receive HTTP/1.1[0m" 500 -
+2025-04-12 17:11:10,851 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 17:11:10,852 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 17:11:10,853 INFO: * Restarting with stat
+2025-04-12 17:11:11,627 WARNING: * Debugger is active!
+2025-04-12 17:11:11,627 INFO: * Debugger PIN: 110-210-033
+2025-04-12 17:11:39,416 INFO:New case initiated by trigger keyword.
+2025-04-12 17:11:39,417 INFO:127.0.0.1 - - [12/Apr/2025 17:11:39] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:11:44,038 INFO:Stored response for complaint_duration: Patient has chest pain for 3 days
+2025-04-12 17:11:44,038 INFO:Asking next question (index 1).
+2025-04-12 17:11:44,039 INFO:127.0.0.1 - - [12/Apr/2025 17:11:44] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:11:55,749 INFO:Stored response for key_findings_vitals: BP 140/90, Temp 37.5C, Alert and oriented
+2025-04-12 17:11:55,750 INFO:Asking next question (index 2).
+2025-04-12 17:11:55,750 INFO:127.0.0.1 - - [12/Apr/2025 17:11:55] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:12:02,876 INFO:Stored response for relevant_history: History of hypertension, no known allergies, takes Lisinopril
+2025-04-12 17:12:02,876 INFO:Last question (index 2) answered. Proceeding to report generation.
+2025-04-12 17:12:02,876 INFO:Attempting to generate case report.
+2025-04-12 17:12:05,172 ERROR:ImportError initializing case report chain components: No module named 'configs'
+Traceback (most recent call last):
+  File "/home/spicyred/Projects/Prognos/backend/api/routes.py", line 93, in receive
+    from api.model_src.chains.case_report_chain import create_case_report_chain
+  File "/home/spicyred/Projects/Prognos/backend/api/model_src/chains/case_report_chain.py", line 7, in <module>
+    from configs.config import get_google_api_key
+ModuleNotFoundError: No module named 'configs'
+2025-04-12 17:12:05,174 INFO:127.0.0.1 - - [12/Apr/2025 17:12:05] "[35m[1mPOST /api/receive HTTP/1.1[0m" 500 -
+2025-04-12 17:12:45,185 INFO:127.0.0.1 - - [12/Apr/2025 17:12:45] "[31m[1mGET /api/receive HTTP/1.1[0m" 405 -
+2025-04-12 17:12:45,660 INFO:127.0.0.1 - - [12/Apr/2025 17:12:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-12 17:24:19,325 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 17:24:19,326 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 17:24:19,326 INFO: * Restarting with stat
+2025-04-12 17:24:19,592 WARNING: * Debugger is active!
+2025-04-12 17:24:19,599 INFO: * Debugger PIN: 129-341-613
+2025-04-12 17:30:20,914 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 17:30:20,914 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 17:30:20,914 INFO: * Restarting with stat
+2025-04-12 17:30:21,180 WARNING: * Debugger is active!
+2025-04-12 17:30:21,181 INFO: * Debugger PIN: 129-341-613
+2025-04-12 17:38:46,441 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 17:38:46,441 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 17:38:46,442 INFO: * Restarting with stat
+2025-04-12 17:38:46,709 WARNING: * Debugger is active!
+2025-04-12 17:38:46,709 INFO: * Debugger PIN: 129-341-613
+2025-04-12 17:38:58,662 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 17:38:58,662 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 17:38:58,663 INFO: * Restarting with stat
+2025-04-12 17:38:58,935 WARNING: * Debugger is active!
+2025-04-12 17:38:58,935 INFO: * Debugger PIN: 129-341-613
+2025-04-12 17:39:39,884 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 17:39:39,885 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 17:39:39,885 INFO: * Restarting with stat
+2025-04-12 17:39:40,171 WARNING: * Debugger is active!
+2025-04-12 17:39:40,171 INFO: * Debugger PIN: 129-341-613
+2025-04-12 17:40:05,319 INFO:Attempting to generate case report.
+2025-04-12 17:40:05,319 WARNING:Missing required data for report generation: ['complaint_duration', 'key_findings_vitals', 'relevant_history']. Asking question 0.
+2025-04-12 17:40:05,320 INFO:127.0.0.1 - - [12/Apr/2025 17:40:05] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:41:25,959 INFO:Stored response for key_findings_vitals: What is flask?
+2025-04-12 17:41:25,959 INFO:Asking next question (index 2).
+2025-04-12 17:41:25,959 INFO:127.0.0.1 - - [12/Apr/2025 17:41:25] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:42:03,572 INFO:New case initiated by trigger keyword.
+2025-04-12 17:42:03,572 INFO:127.0.0.1 - - [12/Apr/2025 17:42:03] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:43:00,463 INFO:192.168.100.123 - - [12/Apr/2025 17:43:00] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:43:00,490 INFO:Attempting to generate case report.
+2025-04-12 17:43:00,491 WARNING:Missing required data for report generation: ['complaint_duration', 'key_findings_vitals', 'relevant_history']. Asking question 0.
+2025-04-12 17:43:00,491 INFO:192.168.100.123 - - [12/Apr/2025 17:43:00] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:43:01,926 INFO:Stored response for key_findings_vitals: The patient is vomitting
+2025-04-12 17:43:01,926 INFO:Asking next question (index 2).
+2025-04-12 17:43:01,927 INFO:127.0.0.1 - - [12/Apr/2025 17:43:01] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:43:13,937 INFO:Stored response for relevant_history: The patient is vomitting
+2025-04-12 17:43:13,937 INFO:Last question (index 2) answered. Proceeding to report generation.
+2025-04-12 17:43:13,937 INFO:Attempting to generate case report.
+2025-04-12 17:43:13,937 WARNING:Missing required data for report generation: ['complaint_duration']. Asking question 0.
+2025-04-12 17:43:13,937 INFO:127.0.0.1 - - [12/Apr/2025 17:43:13] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:43:32,298 INFO:192.168.100.123 - - [12/Apr/2025 17:43:32] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:43:32,319 INFO:New case initiated by trigger keyword.
+2025-04-12 17:43:32,320 INFO:192.168.100.123 - - [12/Apr/2025 17:43:32] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:43:43,459 INFO:192.168.100.123 - - [12/Apr/2025 17:43:43] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:43:43,476 INFO:Stored response for key_findings_vitals: hey there
+2025-04-12 17:43:43,476 INFO:Asking next question (index 2).
+2025-04-12 17:43:43,477 INFO:192.168.100.123 - - [12/Apr/2025 17:43:43] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:44:11,056 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/app.py', reloading
+2025-04-12 17:44:11,146 INFO: * Restarting with stat
+2025-04-12 17:44:11,414 WARNING: * Debugger is active!
+2025-04-12 17:44:11,414 INFO: * Debugger PIN: 129-341-613
+2025-04-12 17:44:47,628 INFO:Stored response for key_findings_vitals: The patient is vomitting
+2025-04-12 17:44:47,628 INFO:Asking next question (index 2).
+2025-04-12 17:44:47,633 INFO:127.0.0.1 - - [12/Apr/2025 17:44:47] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:44:56,390 INFO:Stored response for relevant_history: The patient is vomitting
+2025-04-12 17:44:56,390 INFO:Last question (index 2) answered. Proceeding to report generation.
+2025-04-12 17:44:56,390 INFO:Attempting to generate case report.
+2025-04-12 17:44:56,390 WARNING:Missing required data for report generation: ['complaint_duration']. Asking question 0.
+2025-04-12 17:44:56,391 INFO:127.0.0.1 - - [12/Apr/2025 17:44:56] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:45:39,981 INFO:Attempting to generate case report.
+2025-04-12 17:45:39,981 WARNING:Missing required data for report generation: ['complaint_duration']. Asking question 0.
+2025-04-12 17:45:39,982 INFO:127.0.0.1 - - [12/Apr/2025 17:45:39] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:46:10,210 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 17:46:10,210 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 17:46:10,210 INFO: * Restarting with stat
+2025-04-12 17:46:10,485 WARNING: * Debugger is active!
+2025-04-12 17:46:10,485 INFO: * Debugger PIN: 129-341-613
+2025-04-12 17:46:15,602 INFO:Attempting to generate case report.
+2025-04-12 17:46:15,602 WARNING:Missing required data for report generation: ['complaint_duration', 'key_findings_vitals', 'relevant_history']. Asking question 0.
+2025-04-12 17:46:15,603 INFO:127.0.0.1 - - [12/Apr/2025 17:46:15] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:46:53,723 INFO:192.168.100.123 - - [12/Apr/2025 17:46:53] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:46:53,739 INFO:Attempting to generate case report.
+2025-04-12 17:46:53,739 WARNING:Missing required data for report generation: ['complaint_duration', 'key_findings_vitals', 'relevant_history']. Asking question 0.
+2025-04-12 17:46:53,740 INFO:192.168.100.123 - - [12/Apr/2025 17:46:53] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:47:00,177 INFO:192.168.100.123 - - [12/Apr/2025 17:47:00] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:47:00,198 INFO:Stored response for key_findings_vitals: hello boy
+2025-04-12 17:47:00,198 INFO:Asking next question (index 2).
+2025-04-12 17:47:00,198 INFO:192.168.100.123 - - [12/Apr/2025 17:47:00] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:47:40,112 INFO:192.168.100.123 - - [12/Apr/2025 17:47:40] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:47:40,134 INFO:Attempting to generate case report.
+2025-04-12 17:47:40,134 WARNING:Missing required data for report generation: ['complaint_duration', 'relevant_history']. Asking question 0.
+2025-04-12 17:47:40,134 INFO:192.168.100.123 - - [12/Apr/2025 17:47:40] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:48:31,315 INFO:192.168.100.123 - - [12/Apr/2025 17:48:31] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:48:31,332 INFO:Attempting to generate case report.
+2025-04-12 17:48:31,332 WARNING:Missing required data for report generation: ['complaint_duration', 'relevant_history']. Asking question 0.
+2025-04-12 17:48:31,333 INFO:192.168.100.123 - - [12/Apr/2025 17:48:31] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:48:39,726 INFO:192.168.100.123 - - [12/Apr/2025 17:48:39] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:48:39,742 INFO:Attempting to generate case report.
+2025-04-12 17:48:39,743 WARNING:Missing required data for report generation: ['complaint_duration', 'relevant_history']. Asking question 0.
+2025-04-12 17:48:39,743 INFO:192.168.100.123 - - [12/Apr/2025 17:48:39] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:49:07,583 INFO:192.168.100.123 - - [12/Apr/2025 17:49:07] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:49:07,612 INFO:Attempting to generate case report.
+2025-04-12 17:49:07,612 WARNING:Missing required data for report generation: ['complaint_duration', 'relevant_history']. Asking question 0.
+2025-04-12 17:49:07,613 INFO:192.168.100.123 - - [12/Apr/2025 17:49:07] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:49:23,027 INFO:192.168.100.123 - - [12/Apr/2025 17:49:23] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:49:23,046 INFO:New case initiated by trigger keyword.
+2025-04-12 17:49:23,046 INFO:192.168.100.123 - - [12/Apr/2025 17:49:23] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:51:17,103 INFO:192.168.100.123 - - [12/Apr/2025 17:51:17] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:51:17,130 INFO:Attempting to generate case report.
+2025-04-12 17:51:17,130 WARNING:Missing required data for report generation: ['complaint_duration', 'key_findings_vitals', 'relevant_history']. Asking question 0.
+2025-04-12 17:51:17,131 INFO:192.168.100.123 - - [12/Apr/2025 17:51:17] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:51:26,109 INFO:192.168.100.123 - - [12/Apr/2025 17:51:26] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:51:26,163 INFO:New case initiated by trigger keyword.
+2025-04-12 17:51:26,163 INFO:192.168.100.123 - - [12/Apr/2025 17:51:26] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:51:43,521 INFO:192.168.100.123 - - [12/Apr/2025 17:51:43] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:51:43,539 INFO:Attempting to generate case report.
+2025-04-12 17:51:43,539 WARNING:Missing required data for report generation: ['complaint_duration', 'key_findings_vitals', 'relevant_history']. Asking question 0.
+2025-04-12 17:51:43,540 INFO:192.168.100.123 - - [12/Apr/2025 17:51:43] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:52:12,089 INFO:192.168.100.123 - - [12/Apr/2025 17:52:12] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:52:12,101 INFO:Attempting to generate case report.
+2025-04-12 17:52:12,101 WARNING:Missing required data for report generation: ['complaint_duration', 'key_findings_vitals', 'relevant_history']. Asking question 0.
+2025-04-12 17:52:12,101 INFO:192.168.100.123 - - [12/Apr/2025 17:52:12] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:52:16,186 INFO:Stored response for key_findings_vitals: case
+2025-04-12 17:52:16,186 INFO:Asking next question (index 2).
+2025-04-12 17:52:16,187 INFO:192.168.100.123 - - [12/Apr/2025 17:52:16] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:52:59,811 INFO:192.168.100.123 - - [12/Apr/2025 17:52:59] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:52:59,830 INFO:New case initiated by trigger keyword.
+2025-04-12 17:52:59,831 INFO:192.168.100.123 - - [12/Apr/2025 17:52:59] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:53:15,790 INFO:192.168.100.123 - - [12/Apr/2025 17:53:15] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:53:15,808 INFO:Stored response for key_findings_vitals: The patient suffers from random headache since the last 2 hours
+2025-04-12 17:53:15,808 INFO:Asking next question (index 2).
+2025-04-12 17:53:15,808 INFO:192.168.100.123 - - [12/Apr/2025 17:53:15] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 17:53:40,776 INFO:192.168.100.123 - - [12/Apr/2025 17:53:40] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 17:53:40,786 INFO:Attempting to generate case report.
+2025-04-12 17:53:40,786 WARNING:Missing required data for report generation: ['complaint_duration', 'relevant_history']. Asking question 0.
+2025-04-12 17:53:40,787 INFO:192.168.100.123 - - [12/Apr/2025 17:53:40] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:03:52,591 INFO:192.168.100.123 - - [12/Apr/2025 18:03:52] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:03:52,607 INFO:Attempting to generate case report.
+2025-04-12 18:03:52,607 WARNING:Missing required data for report generation: ['complaint_duration', 'relevant_history']. Asking question 0.
+2025-04-12 18:03:52,608 INFO:192.168.100.123 - - [12/Apr/2025 18:03:52] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:03:56,684 INFO:New case initiated by trigger keyword.
+2025-04-12 18:03:56,684 INFO:192.168.100.123 - - [12/Apr/2025 18:03:56] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:04:22,492 INFO:192.168.100.123 - - [12/Apr/2025 18:04:22] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:04:22,507 INFO:Stored response for complaint_duration: The patient is bitten by snake around 1 hour ago
+2025-04-12 18:04:22,507 INFO:Asking next question (index 1).
+2025-04-12 18:04:22,507 INFO:192.168.100.123 - - [12/Apr/2025 18:04:22] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:04:49,836 INFO:192.168.100.123 - - [12/Apr/2025 18:04:49] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:04:49,859 INFO:Stored response for key_findings_vitals: well his pulses are down and his eyes are diming slowly
+2025-04-12 18:04:49,859 INFO:Asking next question (index 2).
+2025-04-12 18:04:49,859 INFO:192.168.100.123 - - [12/Apr/2025 18:04:49] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:05:58,534 INFO:192.168.100.123 - - [12/Apr/2025 18:05:58] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:05:58,549 INFO:Stored response for relevant_history: he look half awake and sleepp, redness in eyes and hand and apply bandages uses upper the bitten area to stop the blood flow and venum
+2025-04-12 18:05:58,549 INFO:Last question (index 2) answered. Proceeding to report generation.
+2025-04-12 18:05:58,549 INFO:Attempting to generate case report.
+2025-04-12 18:05:59,601 ERROR:ImportError initializing case report chain components: No module named 'configs'
+Traceback (most recent call last):
+  File "/home/spicyred/Projects/Prognos/backend/api/routes.py", line 93, in receive
+    from api.model_src.chains.case_report_chain import create_case_report_chain
+  File "/home/spicyred/Projects/Prognos/backend/api/model_src/chains/case_report_chain.py", line 7, in <module>
+    from configs.config import get_google_api_key
+ModuleNotFoundError: No module named 'configs'
+2025-04-12 18:05:59,602 INFO:192.168.100.123 - - [12/Apr/2025 18:05:59] "[35m[1mPOST /api/receive HTTP/1.1[0m" 500 -
+2025-04-12 18:08:58,121 INFO:192.168.100.123 - - [12/Apr/2025 18:08:58] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:08:58,137 INFO:Attempting to generate case report.
+2025-04-12 18:08:58,138 ERROR:ImportError initializing case report chain components: No module named 'configs'
+Traceback (most recent call last):
+  File "/home/spicyred/Projects/Prognos/backend/api/routes.py", line 93, in receive
+    from api.model_src.chains.case_report_chain import create_case_report_chain
+  File "/home/spicyred/Projects/Prognos/backend/api/model_src/chains/case_report_chain.py", line 7, in <module>
+    from configs.config import get_google_api_key
+ModuleNotFoundError: No module named 'configs'
+2025-04-12 18:08:58,139 INFO:192.168.100.123 - - [12/Apr/2025 18:08:58] "[35m[1mPOST /api/receive HTTP/1.1[0m" 500 -
+2025-04-12 18:09:10,099 INFO:192.168.100.123 - - [12/Apr/2025 18:09:10] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:09:10,116 INFO:Attempting to generate case report.
+2025-04-12 18:09:10,117 ERROR:ImportError initializing case report chain components: No module named 'configs'
+Traceback (most recent call last):
+  File "/home/spicyred/Projects/Prognos/backend/api/routes.py", line 93, in receive
+    from api.model_src.chains.case_report_chain import create_case_report_chain
+  File "/home/spicyred/Projects/Prognos/backend/api/model_src/chains/case_report_chain.py", line 7, in <module>
+    from configs.config import get_google_api_key
+ModuleNotFoundError: No module named 'configs'
+2025-04-12 18:09:10,118 INFO:192.168.100.123 - - [12/Apr/2025 18:09:10] "[35m[1mPOST /api/receive HTTP/1.1[0m" 500 -
+2025-04-12 18:10:16,137 INFO:192.168.100.123 - - [12/Apr/2025 18:10:16] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:10:16,147 INFO:New case initiated by trigger keyword.
+2025-04-12 18:10:16,147 INFO:192.168.100.123 - - [12/Apr/2025 18:10:16] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:10:50,853 INFO:192.168.100.123 - - [12/Apr/2025 18:10:50] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:10:50,872 INFO:Stored response for key_findings_vitals: He is damm horny all the time 
+2025-04-12 18:10:50,872 INFO:Asking next question (index 2).
+2025-04-12 18:10:50,873 INFO:192.168.100.123 - - [12/Apr/2025 18:10:50] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:11:23,619 INFO:192.168.100.123 - - [12/Apr/2025 18:11:23] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:11:23,628 INFO:Attempting to generate case report.
+2025-04-12 18:11:23,628 WARNING:Missing required data for report generation: ['complaint_duration', 'relevant_history']. Asking question 0.
+2025-04-12 18:11:23,628 INFO:192.168.100.123 - - [12/Apr/2025 18:11:23] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:12:26,592 INFO:192.168.100.123 - - [12/Apr/2025 18:12:26] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:12:26,609 INFO:New case initiated by trigger keyword.
+2025-04-12 18:12:26,610 INFO:192.168.100.123 - - [12/Apr/2025 18:12:26] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:12:46,762 INFO:192.168.100.123 - - [12/Apr/2025 18:12:46] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:12:46,777 INFO:Attempting to generate case report.
+2025-04-12 18:12:46,777 WARNING:Missing required data for report generation: ['complaint_duration', 'key_findings_vitals', 'relevant_history']. Asking question 0.
+2025-04-12 18:12:46,778 INFO:192.168.100.123 - - [12/Apr/2025 18:12:46] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:13:00,504 INFO:192.168.100.123 - - [12/Apr/2025 18:13:00] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:13:00,593 INFO:Stored response for key_findings_vitals: The patients is coughing for 4 hours
+2025-04-12 18:13:00,594 INFO:Asking next question (index 2).
+2025-04-12 18:13:00,594 INFO:192.168.100.123 - - [12/Apr/2025 18:13:00] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:13:14,720 INFO:192.168.100.123 - - [12/Apr/2025 18:13:14] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:13:14,731 INFO:Attempting to generate case report.
+2025-04-12 18:13:14,731 WARNING:Missing required data for report generation: ['complaint_duration', 'relevant_history']. Asking question 0.
+2025-04-12 18:13:14,732 INFO:192.168.100.123 - - [12/Apr/2025 18:13:14] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:13:30,689 INFO:192.168.100.123 - - [12/Apr/2025 18:13:30] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:13:30,703 INFO:Attempting to generate case report.
+2025-04-12 18:13:30,704 WARNING:Missing required data for report generation: ['complaint_duration', 'relevant_history']. Asking question 0.
+2025-04-12 18:13:30,704 INFO:192.168.100.123 - - [12/Apr/2025 18:13:30] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:13:37,446 INFO:192.168.100.123 - - [12/Apr/2025 18:13:37] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:13:37,464 INFO:Attempting to generate case report.
+2025-04-12 18:13:37,464 WARNING:Missing required data for report generation: ['complaint_duration', 'relevant_history']. Asking question 0.
+2025-04-12 18:13:37,465 INFO:192.168.100.123 - - [12/Apr/2025 18:13:37] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:14:07,456 INFO:192.168.100.123 - - [12/Apr/2025 18:14:07] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:14:07,473 INFO:Stored response for key_findings_vitals: he is suffering from the snake bites
+2025-04-12 18:14:07,474 INFO:Asking next question (index 2).
+2025-04-12 18:14:07,474 INFO:192.168.100.123 - - [12/Apr/2025 18:14:07] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:16:38,581 INFO:192.168.100.123 - - [12/Apr/2025 18:16:38] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:16:38,591 INFO:Attempting to generate case report.
+2025-04-12 18:16:38,591 WARNING:Missing required data for report generation: ['complaint_duration', 'relevant_history']. Asking question 0.
+2025-04-12 18:16:38,592 INFO:192.168.100.123 - - [12/Apr/2025 18:16:38] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:17:38,515 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.127:5000
+2025-04-12 18:17:38,515 INFO:[33mPress CTRL+C to quit[0m
+2025-04-12 18:17:38,516 INFO: * Restarting with stat
+2025-04-12 18:17:38,795 WARNING: * Debugger is active!
+2025-04-12 18:17:38,795 INFO: * Debugger PIN: 129-341-613
+2025-04-12 18:17:43,399 INFO:192.168.100.123 - - [12/Apr/2025 18:17:43] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:17:43,407 INFO:Attempting to generate case report.
+2025-04-12 18:17:43,407 WARNING:Missing required data for report generation: ['complaint_duration', 'key_findings_vitals', 'relevant_history']. Asking question 0.
+2025-04-12 18:17:43,407 INFO:192.168.100.123 - - [12/Apr/2025 18:17:43] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:17:47,802 INFO:New case initiated by trigger keyword.
+2025-04-12 18:17:47,802 INFO:192.168.100.123 - - [12/Apr/2025 18:17:47] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:18:20,466 INFO:192.168.100.123 - - [12/Apr/2025 18:18:20] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:18:20,475 INFO:New case initiated by trigger keyword.
+2025-04-12 18:18:20,476 INFO:192.168.100.123 - - [12/Apr/2025 18:18:20] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:18:27,429 INFO:192.168.100.123 - - [12/Apr/2025 18:18:27] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:18:27,436 INFO:Stored response for relevant_history: what is my name
+2025-04-12 18:18:27,436 INFO:Last question (index 2) answered. Proceeding to report generation.
+2025-04-12 18:18:27,436 INFO:Attempting to generate case report.
+2025-04-12 18:18:27,436 WARNING:Missing required data for report generation: ['complaint_duration', 'key_findings_vitals']. Asking question 0.
+2025-04-12 18:18:27,437 INFO:192.168.100.123 - - [12/Apr/2025 18:18:27] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:18:32,607 INFO:192.168.100.123 - - [12/Apr/2025 18:18:32] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:18:32,878 INFO:Attempting to generate case report.
+2025-04-12 18:18:32,878 WARNING:Missing required data for report generation: ['complaint_duration', 'key_findings_vitals']. Asking question 0.
+2025-04-12 18:18:32,879 INFO:192.168.100.123 - - [12/Apr/2025 18:18:32] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:18:37,363 INFO:Attempting to generate case report.
+2025-04-12 18:18:37,364 WARNING:Missing required data for report generation: ['complaint_duration', 'key_findings_vitals']. Asking question 0.
+2025-04-12 18:18:37,364 INFO:192.168.100.123 - - [12/Apr/2025 18:18:37] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:20:27,032 INFO:192.168.100.123 - - [12/Apr/2025 18:20:27] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:20:27,052 INFO:New case initiated by trigger keyword.
+2025-04-12 18:20:27,052 INFO:192.168.100.123 - - [12/Apr/2025 18:20:27] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:21:28,476 INFO: * Detected change in '/home/spicyred/Projects/Prognos/backend/api/routes.py', reloading
+2025-04-12 18:21:28,570 INFO: * Restarting with stat
+2025-04-12 18:21:28,838 WARNING: * Debugger is active!
+2025-04-12 18:21:28,839 INFO: * Debugger PIN: 129-341-613
+2025-04-12 18:21:33,494 INFO:192.168.100.123 - - [12/Apr/2025 18:21:33] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:21:33,594 INFO:Stored response for relevant_history: The lion of the jungle
+2025-04-12 18:21:33,594 INFO:Last question (index 2) answered. Proceeding to report generation.
+2025-04-12 18:21:33,594 INFO:Attempting to generate case report.
+2025-04-12 18:21:33,595 WARNING:Missing required data for report generation: ['complaint_duration', 'key_findings_vitals']. Asking question 0.
+2025-04-12 18:21:33,595 INFO:192.168.100.123 - - [12/Apr/2025 18:21:33] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 18:21:50,895 INFO:192.168.100.123 - - [12/Apr/2025 18:21:50] "OPTIONS /api/receive HTTP/1.1" 200 -
+2025-04-12 18:21:51,008 INFO:Attempting to generate case report.
+2025-04-12 18:21:51,008 WARNING:Missing required data for report generation: ['complaint_duration', 'key_findings_vitals']. Asking question 0.
+2025-04-12 18:21:51,009 INFO:192.168.100.123 - - [12/Apr/2025 18:21:51] "POST /api/receive HTTP/1.1" 200 -
+2025-04-12 13:08:41,797 INFO:/home/spicyred/Projects/Prognos/backend_django/backend_django/settings.py changed, reloading.
+2025-04-12 13:13:38,273 INFO:/home/spicyred/Projects/Prognos/backend_django/apis/model_src/chains/case_report_chain.py changed, reloading.
+2025-04-12 13:18:31,513 INFO:/home/spicyred/Projects/Prognos/backend_django/backend_django/urls.py changed, reloading.
+2025-04-12 13:18:51,605 INFO:/home/spicyred/Projects/Prognos/backend_django/apis/views.py changed, reloading.
+2025-04-12 13:19:00,401 WARNING:Not Found: /
+2025-04-12 13:19:00,586 WARNING:Not Found: /favicon.ico
+2025-04-12 13:19:04,301 WARNING:Not Found: /api
+2025-04-12 13:19:18,805 ERROR:Internal Server Error: /api/messages/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+2025-04-12 13:20:53,834 INFO:/home/spicyred/Projects/Prognos/backend_django/backend_django/settings.py changed, reloading.
+2025-04-12 13:20:56,578 INFO:/home/spicyred/Projects/Prognos/backend_django/backend_django/settings.py changed, reloading.
+2025-04-12 13:23:10,071 WARNING:Not Found: /api/receive
+2025-04-12 13:23:10,270 WARNING:Not Found: /favicon.ico
+2025-04-12 13:23:15,935 ERROR:Internal Server Error: /api/messages/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+2025-04-12 13:23:24,444 WARNING:Method Not Allowed: /api/messages/
+2025-04-12 13:23:58,281 INFO:/home/spicyred/Projects/Prognos/backend_django/apis/urls.py changed, reloading.
+2025-04-12 13:24:17,391 INFO:/home/spicyred/Projects/Prognos/backend_django/backend_django/urls.py changed, reloading.
+2025-04-12 13:28:14,624 INFO:/home/spicyred/Projects/Prognos/backend_django/apis/views.py changed, reloading.
+2025-04-12 13:49:24,546 INFO:/home/spicyred/Projects/Prognos/backend_django/apis/views.py changed, reloading.
+2025-04-12 13:50:06,915 INFO:/home/spicyred/Projects/Prognos/backend_django/apis/views.py changed, reloading.
+2025-04-12 13:51:41,994 WARNING:Not Found: /api/messages/
+2025-04-12 13:53:42,572 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/Projects/Prognos/backend_django/apis/views.py", line 35, in post
+    question = int(question_str)
+               ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+2025-04-12 13:54:21,425 INFO:Stored response for complaint_duration:Patient has been having fever of 100 C for 10 days
+2025-04-12 13:55:53,067 INFO:Stored response for key_findings_vitals:The patient had sign of convulsion
+2025-04-12 13:55:56,396 INFO:Stored response for key_findings_vitals:The patient had sign of convulsion
+2025-04-12 13:56:28,429 WARNING:Bad Request: /api/receive/
+2025-04-12 13:56:59,270 WARNING:Bad Request: /api/receive/
+2025-04-12 13:57:27,299 INFO:Stored response for relevant_history:The patient had citamol and other antibiotics
+2025-04-12 14:00:08,926 INFO:/home/spicyred/Projects/Prognos/backend_django/apis/views.py changed, reloading.
+2025-04-12 14:00:57,849 WARNING:Bad Request: /api/receive/
+2025-04-12 14:01:46,330 WARNING:Bad Request: /api/receive/
+2025-04-12 14:01:51,241 WARNING:Bad Request: /api/receive/
+2025-04-12 14:02:07,815 WARNING:Bad Request: /api/receive/
+2025-04-12 14:02:17,264 WARNING:Bad Request: /api/receive/
+2025-04-12 14:02:43,038 WARNING:Bad Request: /api/receive/
+2025-04-12 14:03:38,212 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/Projects/Prognos/backend_django/apis/views.py", line 35, in post
+    question = int(question_str)
+               ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+2025-04-12 14:03:42,693 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/Projects/Prognos/backend_django/apis/views.py", line 35, in post
+    question = int(question_str)
+               ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+2025-04-12 14:03:53,855 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/Projects/Prognos/backend_django/apis/views.py", line 35, in post
+    question = int(question_str)
+               ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+2025-04-12 14:04:05,028 WARNING:Method Not Allowed: /api/receive/
+2025-04-12 14:04:17,185 WARNING:Method Not Allowed: /api/receive/
+2025-04-12 14:04:19,334 WARNING:Method Not Allowed: /api/receive/
+2025-04-12 14:04:23,854 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/Projects/Prognos/backend_django/apis/views.py", line 35, in post
+    question = int(question_str)
+               ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+2025-04-12 14:05:39,544 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/Projects/Prognos/backend_django/apis/views.py", line 35, in post
+    if question_str:
+               ^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+2025-04-12 14:07:29,112 WARNING:Not Found: /
+2025-04-12 14:07:38,432 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+2025-04-12 14:08:40,073 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+2025-04-12 14:08:40,564 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+2025-04-12 14:08:40,742 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+2025-04-12 14:08:40,915 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+2025-04-12 14:08:41,068 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+2025-04-12 14:08:41,242 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+2025-04-12 14:08:41,439 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+2025-04-12 14:08:41,597 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+2025-04-12 14:08:41,760 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 251, in inner
+    self._setup()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/auth/__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/contrib/sessions/backends/db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: django_session
+2025-04-12 14:09:10,257 WARNING:Method Not Allowed: /api/receive/
+2025-04-12 14:09:16,068 INFO:Attempting to generate case report.
+2025-04-12 14:09:57,229 INFO:Attempting to generate case report.
+2025-04-12 14:10:02,429 INFO:/home/spicyred/Projects/Prognos/backend_django/apis/views.py changed, reloading.
+2025-04-12 14:10:15,587 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2025-04-12 14:10:29,683 INFO:Stored response for complaint_duration:new cases
+2025-04-12 14:10:29,683 INFO:All questions answered. Generating case report.
+2025-04-12 14:10:51,610 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2025-04-12 14:11:16,592 INFO:/home/spicyred/Projects/Prognos/backend_django/apis/views.py changed, reloading.
+2025-04-12 14:11:23,430 INFO:/home/spicyred/Projects/Prognos/backend_django/apis/views.py changed, reloading.
+2025-04-12 14:11:30,541 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2025-04-12 14:11:39,722 INFO:Stored response for complaint_duration:new cases
+2025-04-12 14:11:39,722 INFO:All questions answered. Generating case report.
+2025-04-12 14:11:50,611 INFO:/home/spicyred/Projects/Prognos/backend_django/apis/views.py changed, reloading.
+2025-04-12 14:13:06,778 INFO:/home/spicyred/Projects/Prognos/backend_django/apis/views.py changed, reloading.
+2025-04-12 14:13:29,007 ERROR:Internal Server Error: /api/receive/
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2025-04-12 14:14:11,187 INFO:Stored response for complaint_duration:snake bite and around 2 hours
+2025-04-12 14:14:11,187 INFO:All questions answered. Generating case report.
+2025-04-12 14:15:04,312 INFO:Stored response for key_findings_vitals:well bandages at the top layer of the bite and eyes being dim
+2025-04-12 14:15:04,312 INFO:All questions answered. Generating case report.
+2025-04-12 14:15:21,625 INFO:Stored response for relevant_history:clean history
+2025-04-12 14:15:21,625 INFO:Attempting to generate case report.
+2025-04-12 14:32:52,012 INFO:/home/spicyred/Projects/Prognos/backend_django/backend_django/settings.py changed, reloading.
+2025-04-12 14:32:56,775 INFO:/home/spicyred/Projects/Prognos/backend_django/backend_django/settings.py changed, reloading.
+2025-04-12 14:34:11,888 INFO:/home/spicyred/Projects/Prognos/backend_django/backend_django/settings.py changed, reloading.
