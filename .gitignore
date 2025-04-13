@@ -33,3 +33,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+backend_django/apis/model_src/chains/prompts/__pycache__
+chain_logs.log

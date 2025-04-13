@@ -2,6 +2,9 @@ REPORT_PROMPT_TEMPLATE = """
 Role: You are an AI medical assistant designed to help doctors synthesize preliminary case information.
 
 Context:
+Patient Name: {patient_name}
+Patient Age: {patient_age}
+Diagnosis Type: {diagnosis_type}
 Patient Complaint & Duration: {complaint_duration}
 Key Clinical Findings/Vitals: {key_findings_vitals}
 Relevant Patient History: {relevant_history}

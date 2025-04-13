@@ -2490,3 +2490,154 @@ AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse`
 2025-04-12 18:00:27,190 INFO:Stored response for relevant_history:sick
 2025-04-12 18:00:27,191 INFO:Attempting to generate case report.
 2025-04-12 18:08:56,153 INFO:/home/spicyred/Projects/Prognos/backend_django/manage.py changed, reloading.
+2025-04-13 05:21:18,198 ERROR:Internal Server Error: /api/receive
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 192.168.100.127:8000/api/receive/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2025-04-13 05:21:24,095 ERROR:Internal Server Error: /api/receive
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 192.168.100.127:8000/api/receive/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2025-04-13 05:21:29,085 WARNING:Method Not Allowed: /api/receive/
+2025-04-13 05:21:31,244 WARNING:Not Found: /favicon.ico
+2025-04-13 05:21:45,881 ERROR:Internal Server Error: /api/receive
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 192.168.100.127:8000/api/receive/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2025-04-13 05:22:14,205 ERROR:Internal Server Error: /api/receive
+Traceback (most recent call last):
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/utils/deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/spicyred/anaconda3/envs/Prognos/lib/python3.11/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 192.168.100.127:8000/api/receive/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2025-04-13 05:22:40,039 INFO:Stored response for patient_name:shankar chetri
+2025-04-13 05:22:40,039 INFO:All questions answered. Generating case report.
+2025-04-13 05:22:44,689 INFO:Stored response for patient_age:18
+2025-04-13 05:22:44,689 INFO:All questions answered. Generating case report.
+2025-04-13 05:22:50,280 INFO:Stored response for diagnosis_type:surgery
+2025-04-13 05:22:50,280 INFO:All questions answered. Generating case report.
+2025-04-13 05:23:02,165 INFO:Stored response for complaint_duration:stomatch pain
+2025-04-13 05:23:02,166 INFO:All questions answered. Generating case report.
+2025-04-13 05:23:09,429 INFO:Stored response for key_findings_vitals:severly pain 
+2025-04-13 05:23:09,429 INFO:All questions answered. Generating case report.
+2025-04-13 05:23:12,123 INFO:Stored response for relevant_history:clean
+2025-04-13 05:23:12,123 INFO:Attempting to generate case report.
+2025-04-13 05:29:28,595 INFO:Stored response for patient_name:ram 
+2025-04-13 05:29:28,595 INFO:All questions answered. Generating case report.
+2025-04-13 05:29:30,795 INFO:Stored response for patient_age:22
+2025-04-13 05:29:30,796 INFO:All questions answered. Generating case report.
+2025-04-13 05:29:37,016 INFO:Stored response for diagnosis_type:medicine
+2025-04-13 05:29:37,016 INFO:All questions answered. Generating case report.
+2025-04-13 05:29:40,700 INFO:Stored response for complaint_duration:snake bite
+2025-04-13 05:29:40,700 INFO:All questions answered. Generating case report.
+2025-04-13 05:29:44,855 INFO:Stored response for key_findings_vitals:eyes dim
+2025-04-13 05:29:44,856 INFO:All questions answered. Generating case report.
+2025-04-13 05:29:49,405 INFO:Stored response for relevant_history:clean history
+2025-04-13 05:29:49,406 INFO:Attempting to generate case report.
+2025-04-13 05:42:31,337 INFO:Stored response for patient_name:new 
+2025-04-13 05:42:31,337 INFO:All questions answered. Generating case report.
+2025-04-13 05:42:32,743 INFO:Stored response for patient_age:new 
+2025-04-13 05:42:32,743 INFO:All questions answered. Generating case report.
+2025-04-13 05:42:36,849 INFO:Stored response for diagnosis_type:new
+2025-04-13 05:42:36,849 INFO:All questions answered. Generating case report.
+2025-04-13 05:42:38,478 INFO:Stored response for complaint_duration:new
+2025-04-13 05:42:38,478 INFO:All questions answered. Generating case report.
+2025-04-13 05:42:39,706 INFO:Stored response for key_findings_vitals:new
+2025-04-13 05:42:39,706 INFO:All questions answered. Generating case report.
+2025-04-13 05:42:41,537 INFO:Stored response for relevant_history:new
+2025-04-13 05:42:41,538 INFO:Attempting to generate case report.
+2025-04-13 05:43:38,685 INFO:Stored response for patient_name:new 
+2025-04-13 05:43:38,685 INFO:All questions answered. Generating case report.
+2025-04-13 05:43:41,020 INFO:Stored response for patient_age:new
+2025-04-13 05:43:41,020 INFO:All questions answered. Generating case report.
+2025-04-13 05:43:42,378 INFO:Stored response for diagnosis_type:new
+2025-04-13 05:43:42,379 INFO:All questions answered. Generating case report.
+2025-04-13 05:43:43,598 INFO:Stored response for complaint_duration:new
+2025-04-13 05:43:43,598 INFO:All questions answered. Generating case report.
+2025-04-13 05:43:45,156 INFO:Stored response for key_findings_vitals:new
+2025-04-13 05:43:45,156 INFO:All questions answered. Generating case report.
+2025-04-13 05:43:46,837 INFO:Stored response for relevant_history:new
+2025-04-13 05:43:46,837 INFO:Attempting to generate case report.
+2025-04-13 05:53:44,534 INFO:Stored response for patient_name:man
+2025-04-13 05:53:44,534 INFO:All questions answered. Generating case report.
+2025-04-13 05:53:45,704 INFO:Stored response for patient_age:12
+2025-04-13 05:53:45,704 INFO:All questions answered. Generating case report.
+2025-04-13 05:53:48,769 INFO:Stored response for diagnosis_type:sick
+2025-04-13 05:53:48,769 INFO:All questions answered. Generating case report.
+2025-04-13 05:53:49,856 INFO:Stored response for complaint_duration:sick
+2025-04-13 05:53:49,856 INFO:All questions answered. Generating case report.
+2025-04-13 05:53:51,124 INFO:Stored response for key_findings_vitals:sick
+2025-04-13 05:53:51,124 INFO:All questions answered. Generating case report.
+2025-04-13 05:53:51,841 INFO:Stored response for relevant_history:sikc
+2025-04-13 05:53:51,841 INFO:Attempting to generate case report.
+2025-04-13 05:53:53,992 INFO:Stored response for relevant_history:sick
+2025-04-13 05:53:53,992 INFO:Attempting to generate case report.
+2025-04-13 06:04:07,648 INFO:Stored response for patient_name:Animesh Maharjan
+2025-04-13 06:04:07,649 INFO:All questions answered. Generating case report.
+2025-04-13 06:04:36,079 INFO:Stored response for patient_name:animesh maharjan
+2025-04-13 06:04:36,079 INFO:All questions answered. Generating case report.
+2025-04-13 06:04:45,094 INFO:Stored response for patient_name:fasdgads
+2025-04-13 06:04:45,094 INFO:All questions answered. Generating case report.
+2025-04-13 06:04:59,767 INFO:Stored response for patient_name:animesh maharjan
+2025-04-13 06:04:59,768 INFO:All questions answered. Generating case report.
+2025-04-13 06:05:20,890 INFO:Stored response for patient_name:Animesh Maharjan
+2025-04-13 06:05:20,890 INFO:All questions answered. Generating case report.
+2025-04-13 06:13:28,473 INFO:Stored response for patient_age:Animesh Marajan
+2025-04-13 06:13:28,473 INFO:All questions answered. Generating case report.
+2025-04-13 06:14:27,267 INFO:Stored response for patient_age:Medicinal
+2025-04-13 06:14:27,268 INFO:All questions answered. Generating case report.
+2025-04-13 06:14:52,597 INFO:Stored response for patient_name:Animesh Marajan
+2025-04-13 06:14:52,598 INFO:All questions answered. Generating case report.
+2025-04-13 06:15:11,480 INFO:Stored response for patient_age:20
+2025-04-13 06:15:11,480 INFO:All questions answered. Generating case report.
+2025-04-13 06:15:26,289 WARNING:Bad Request: /api/receive/
+2025-04-13 06:15:33,145 INFO:Stored response for diagnosis_type:Medicinal
+2025-04-13 06:15:33,145 INFO:All questions answered. Generating case report.
+2025-04-13 06:16:01,497 INFO:Stored response for complaint_duration:Sore Throat
+2025-04-13 06:16:01,497 INFO:All questions answered. Generating case report.
+2025-04-13 06:17:00,123 INFO:Stored response for key_findings_vitals:Nominal vital nothing unusual
+2025-04-13 06:17:00,123 INFO:All questions answered. Generating case report.
+2025-04-13 06:17:22,105 INFO:Stored response for relevant_history:Clean history
+2025-04-13 06:17:22,105 INFO:Attempting to generate case report.
+2025-04-13 06:17:38,686 INFO:Stored response for relevant_history:Clean history
+2025-04-13 06:17:38,686 INFO:Attempting to generate case report.
+2025-04-13 06:18:17,698 INFO:Stored response for patient_name:Animesh maharjan
+2025-04-13 06:18:17,699 INFO:All questions answered. Generating case report.

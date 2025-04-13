@@ -14,13 +14,16 @@ conversation_state = ConversationState()
 TRIGGER_KEYWORDS = ["new case", "start new patient file", "log new patient"]
 
 QUESTIONS = [
-    "What is the patient's primary complaint and its duration?", # Index 0
-    "What are the key clinical observations or vital signs you've noted so far?", # Index 1
-    "Please provide relevant patient history (e.g., major conditions, allergies, current medications)." # Index 2
+    "What is the patient's name?", # Index 0
+    "What is the patient's age?", # Index 1
+    "What is type of medical condition or procedure are you focusing on? (Medicine, Surgery, etc.)", # Index 2
+    "What is the patient's primary complaint and its duration?", # Index 3
+    "What are the key clinical observations or vital signs you've noted so far?", # Index 4
+    "Please provide relevant patient history (e.g., major conditions, allergies, current medications)." # Index 5
 ]
 
 # Ensure STATE_KEYS aligns with QUESTIONS in length and purpose
-STATE_KEYS = ["complaint_duration", "key_findings_vitals", "relevant_history"]
+STATE_KEYS = ["patient_name", "patient_age", "diagnosis_type", "complaint_duration", "key_findings_vitals", "relevant_history"]
 
 class APIModelIOView(APIView):
     def post(self, request):
