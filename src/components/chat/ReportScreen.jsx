@@ -3,47 +3,69 @@ import { motion } from "framer-motion";
 import { FiDownload } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
-import QRCode from "qrcode";
 
 export default function ReportScreen() {
   const navigate = useNavigate();
   const [reportHTML, setReportHTML] = useState("");
-  const [patientName, setPatientName] = useState("Anonymous");
+  const [patientName, setPatientName] = useState("Not specified");
+  const [patientAge, setPatientAge] = useState("Not specified");
+  const [diagnosisType, setDiagnosisType] = useState("Not specified");
   const [reportDate, setReportDate] = useState(new Date().toLocaleDateString());
+  const [showSections, setShowSections] = useState({
+    summary: true,
+    prescription: true,
+    diagnosis: true,
+    treatment: true,
+    caseManagement: true,
+  });
   const reportRef = useRef();
 
   useEffect(() => {
     const saved = localStorage.getItem("finalReportHTML");
-    const name = localStorage.getItem("patientName") || "Anonymous";
-    if (saved) setReportHTML(saved);
-    setPatientName(name);
+    if (saved) {
+      setReportHTML(saved);
+
+      const extractFromText = (label) => {
+        const regex = new RegExp(`${label}:\\s*(.*?)\\n`, "i");
+        const match = saved.match(regex);
+        return match ? match[1].trim() : "Not specified";
+      };
+
+      setPatientName(extractFromText("Patient Name"));
+      setPatientAge(extractFromText("Patient Age"));
+      setDiagnosisType(extractFromText("Diagnosis Type"));
+    }
   }, []);
 
-  const formatSection = (title, icon, content) => {
+  const formatSection = (title, icon, content, key) => {
     return `
       <section style="margin-bottom: 2rem;">
-        <h2 style="font-size: 1.2rem; font-weight: 600; color: #a78bfa; margin-bottom: 0.5rem;">${icon} ${title}</h2>
-        ${content}
+        <h2 style="font-size: 1.2rem; font-weight: 600; color: #a78bfa; margin-bottom: 0.5rem; cursor: pointer;" onclick="document.getElementById('${key}').classList.toggle('hidden')">${icon} ${title}</h2>
+        <div id="${key}">${content}</div>
       </section>
     `;
   };
 
   const extractSection = (heading) => {
-    const regex = new RegExp(`<h2>${heading}<\\/h2>[\\s\\S]*?(?=<h2>|$)`, "i");
+    const regex = new RegExp(`<h2[^>]*>${heading}<\\/h2>([\\s\\S]*?)(?=<h2|<\\/body|$)`, "i");
     const match = reportHTML.match(regex);
-    return match ? match[0] : "<p>Not available.</p>";
+    if (match && match[1].trim()) {
+      return `<div>${match[1].trim()}</div>`;
+    }
+    return "<p>Not available.</p>";
   };
 
   const sectionedHTML = `
     ${formatSection("Patient Information", "🧍", `
       <p><strong>Name:</strong> ${patientName}</p>
+      <p><strong>Age:</strong> ${patientAge}</p>
       <p><strong>Date:</strong> ${reportDate}</p>
-    `)}
-    ${formatSection("Summary", "📋", extractSection("Patient Summary"))}
-    ${formatSection("Prescription", "💊", extractSection("Rx (Potential Prescription Considerations)"))}
-    ${formatSection("Diagnosis", "🧬", extractSection("Dx (Potential Differential Diagnoses)"))}
-    ${formatSection("Treatment Plan", "🧪", extractSection("Tx (Potential Treatment Approaches)"))}
-    ${formatSection("Case Management Steps", "📈", extractSection("Possible Case Management Steps"))}
+    `, "patient-info")}
+    ${showSections.summary ? formatSection("Summary", "📋", extractSection("Patient Summary"), "summary") : ""}
+    ${showSections.prescription ? formatSection("Prescription", "💊", extractSection("Rx (Potential Prescription Considerations)"), "prescription") : ""}
+    ${showSections.diagnosis ? formatSection("Diagnosis", "🧬", extractSection("Dx (Potential Differential Diagnoses)"), "diagnosis") : ""}
+    ${showSections.treatment ? formatSection("Treatment Plan", "🧪", extractSection("Tx (Potential Treatment Approaches)"), "treatment") : ""}
+    ${showSections.caseManagement ? formatSection("Case Management Steps", "📈", extractSection("Possible Case Management Steps"), "case-management") : ""}
   `;
 
   const handleDownloadPDF = async () => {
