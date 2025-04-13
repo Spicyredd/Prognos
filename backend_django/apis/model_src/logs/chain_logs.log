@@ -2483,3 +2483,10 @@ AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse`
 2025-04-12 17:54:08,723 INFO:All questions answered. Generating case report.
 2025-04-12 17:54:11,995 INFO:Stored response for relevant_history:sick
 2025-04-12 17:54:11,995 INFO:Attempting to generate case report.
+2025-04-12 18:00:23,398 INFO:Stored response for complaint_duration:sick
+2025-04-12 18:00:23,398 INFO:All questions answered. Generating case report.
+2025-04-12 18:00:25,252 INFO:Stored response for key_findings_vitals:sick
+2025-04-12 18:00:25,252 INFO:All questions answered. Generating case report.
+2025-04-12 18:00:27,190 INFO:Stored response for relevant_history:sick
+2025-04-12 18:00:27,191 INFO:Attempting to generate case report.
+2025-04-12 18:08:56,153 INFO:/home/spicyred/Projects/Prognos/backend_django/manage.py changed, reloading.
